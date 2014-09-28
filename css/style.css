@@ -1,0 +1,139 @@
+/* random styles */
+.spacer {
+  margin 0 auto;
+  height: 100%;
+}
+
+/* logo styling */
+#top-logo {
+  width: 100%;
+  height: 300px;
+}
+
+/* player styling */
+#stream-player {
+  font-size: 6em;
+  color: #000000;
+  text-align: center;
+}
+
+#stream-player span {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+/* background fade */
+@-webkit-keyframes pulsate {
+    0% {
+        fill: #333;
+        color: #333;
+        background: #fff
+    }
+
+    7% {
+        fill: #0c85ff;
+        color: #0c85ff;
+        background: #001F3F
+    }
+
+    14% {
+        fill: #40a9ff;
+        color: #40a9ff;
+        background: #0074D9
+    }
+
+    21% {
+        fill: #00a8e5;
+        color: #00a8e5;
+        background: #7FDBFF
+    }
+
+    28% {
+        fill: #165656;
+        color: #165656;
+        background: #39CCCC
+    }
+
+    35% {
+        fill: ;
+        color: #112c20;
+        background: #3D9970
+    }
+
+    42% {
+        fill: #124f18;
+        color: #124f18;
+        background: #2ECC40
+    }
+
+    49% {
+        fill: #00672d;
+        color: #00672d;
+        background: #01FF70
+    }
+
+    56% {
+        fill: #665700;
+        color: #665700;
+        background: #FFDC00
+    }
+
+    63% {
+        fill: #ffd6b4;
+        color: #ffd6b4;
+        background: #FF851B
+    }
+
+    70% {
+        fill: #ffd1cf;
+        color: #ffd1cf;
+        background: #FF4136
+    }
+
+    77% {
+        fill: #e44e99;
+        color: #e44e99;
+        background: #85144B
+    }
+
+    84% {
+        fill: #f9a2e6;
+        color: #f9a2e6;
+        background: #F012BE
+    }
+
+    91% {
+        fill: #e679f6;
+        color: #e679f6;
+        background: #B10DC9
+    }
+
+    95% {
+        fill: #5e5e5e;
+        color: #5e5e5e;
+        background: #111
+    }
+
+    96% {
+        fill: #919191;
+        color: #919191;
+        background: #ddd
+    }
+
+    98% {
+        fill: #5d5d5d;
+        color: #5d5d5d;
+        background: #aaa
+    }
+
+    100% {
+        fill: #b3b3b3;
+        color: #b3b3b3;
+        background: #fff
+    }
+}
+
+.pulsate-bg {
+    -webkit-animation: pulsate 100s linear infinite;
+    animation: pulsate 100s linear infinite
+}
