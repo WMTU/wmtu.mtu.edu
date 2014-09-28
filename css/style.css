@@ -1,0 +1,64 @@
+/* general page styling */
+body {
+  font-family: avenir, helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+
+/* random styles */
+.divider {
+  border-bottom: 1px solid #000000;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.divider-small {
+  border-bottom: 1px solid #000000;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+span {
+  display: inline-block;
+}
+
+
+/* logo styling */
+#top-logo {
+  width: 100%;
+  height: 300px;
+}
+
+
+/* stream player styling */
+#stream {
+  text-align: center;
+}
+
+#player {
+  font-size: 5em;
+  color: #000000;
+}
+
+#player span {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#current-track {
+  margin: 1em;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+
+/* navigation styling */
+#navigation {
+  margin: 1.5em;
+}
+
+
+/* contact info styling */
+#department-contacts {
+  margin: 1em auto;
+}
