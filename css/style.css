@@ -89,3 +89,7 @@ span {
 .playlist-date_root{
   margin: 0 auto;
 }
+
+#playlist-table{
+  margin: 1em auto;
+}

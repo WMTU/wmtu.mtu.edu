@@ -46,16 +46,23 @@
       <div class="divider"></div>
       <div id="onair">
         <h2>On Air Camera</h2>
-        <img alt="Moving Image Stream" src="http://webcams.mtu.edu/webcam24/imgupdate.cgi" width="600" height="450">
+        <img alt="Moving Image Stream" src="http://webcams.mtu.edu/webcam24/imgupdate.cgi" width="100%" height="450">
       </div>
       <div class="divider"></div>
       <div id="playlist">
         <h2>Playlist</h2>
-        <form id="playlist-date-picker" action="http://wmtu.mtu.edu/wp-content/wmtu-custom/playlist.php" method="post">
+        <form id="playlist-date-picker" method="post">
           <div id="playlist-picker-container">
             <input type="text" id="playlist-date" placeholder="Click to select date...">
           </div>
         </form>
+        <table id="playlist-table">
+          <tr>
+            <th>Time</th>
+            <th>Artist</th>
+            <th>Track Name</th>
+          </tr>
+        </table>
       </div>
       <div class="divider"></div>
       <div id="station-info">

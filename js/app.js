@@ -9,6 +9,31 @@ WMTU.onStreamPaused = function(){
   $('#pause-button').hide();
 };
 
+WMTU.handleDatePickerEvent = function(){
+  $("#playlist-table").empty().append("<tr><th>Time</th><th>Artist</th><th>Track Name</th></tr>");
+  var pickedValue = WMTU.datePicker.get('select', 'yyyy mm dd');
+  if(pickedValue != null & pickedValue != ""){
+    $("#playlist-table").show();
+    var ymd = pickedValue.split(' ');
+    $.post('http://wmtu.mtu.edu/wp-content/wmtu-custom/playlist.php',
+      {'year':ymd[0], 'month':ymd[1], 'day':ymd[2]},
+      WMTU.renderPlaylist
+    );
+  } else {
+    $("#playlist-table").hide();
+  }
+};
+
+WMTU.renderPlaylist = function(data){
+  data = JSON.parse(data);
+  for(var i = 0; i < data.length; i++){
+    var row = $("<tr />");
+    $("#playlist-table").append(row);
+    row.append($("<td>" + moment(data[i].ts, "YYYY-MM-DD HH:mm:ss").calendar() + "</td>"));
+    row.append($("<td>" + data[i].artist + "</td>"));
+    row.append($("<td>" + data[i].song_name + "</td>"));
+  }
+};
 
 WMTU.streamInfoUpdateLoop = function(){
   $.getJSON("http://wmtu.mtu.edu/wp-content/wmtu-custom/djfeed.php", function(data){
@@ -33,7 +58,6 @@ WMTU.initStream = function(){
   }else{
     WMTU.onStreamPaused();
   }
-
 };
 
 WMTU.bindThings = function(){
@@ -47,7 +71,11 @@ WMTU.bindThings = function(){
   $('#pause-button').click(function(){
     WMTU.streamObject.pause();
   });
-  $('#playlist-date').pickadate()
+  WMTU.datePicker = $('#playlist-date').pickadate().pickadate('picker');
+  WMTU.datePicker.on({
+    close: WMTU.handleDatePickerEvent
+  })
+  $("#playlist-table").hide();
 };
 
 WMTU.setup = function(){
