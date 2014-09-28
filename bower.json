@@ -1,0 +1,24 @@
+{
+  "name": "wmtu.mtu.edu",
+  "version": "0.0.0",
+  "homepage": "https://github.com/WMTU/wmtu.mtu.edu",
+  "authors": [
+    "Neil Betham <nbetham@me.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "colors": "~2.0.0",
+    "font-awesome": "~4.2.0",
+    "jquery": "~2.1.1",
+    "moment": "~2.8.3",
+    "soundmanager": "*"
+  }
+}

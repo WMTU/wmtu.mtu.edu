@@ -11,13 +11,13 @@
 }
 
 /* player styling */
-#stream-player {
+#player {
   font-size: 6em;
   color: #000000;
   text-align: center;
 }
 
-#stream-player span {
+#player span {
   display: inline-block;
   margin: 0 auto;
 }

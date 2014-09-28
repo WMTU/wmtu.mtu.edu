@@ -9,6 +9,14 @@ WMTU.onStreamPaused = function(){
   $('#pause-button').hide();
 };
 
+
+WMTU.streamInfoUpdateLoop = function(){
+  $.getJSON("http://wmtu.mtu.edu/wp-content/wmtu-custom/djfeed.php", function(data){
+    $('#current-track').html(data[0].artist + ' - ' + data[0].song_name + ' |  ' + moment(data[0].ts, "YYYY-MM-DD HH:mm:ss").fromNow())
+  });
+  setTimeout(WMTU.streamInfoUpdateLoop, 5000);
+};
+
 WMTU.initStream = function(){
   WMTU.streamObject = soundManager.createSound({
     id: 'WMTUStream',
@@ -39,11 +47,12 @@ WMTU.bindThings = function(){
 
 WMTU.setup = function(){
   soundManager.setup({
-    url: '/bower_components/soundmanager/swf/',
+    url: 'bower_components/soundmanager/swf/',
     preferFlash: false,
     onready: WMTU.initStream
   });
   WMTU.bindThings();
+  WMTU.streamInfoUpdateLoop();
 };
 
 $(document).ready(function(){
