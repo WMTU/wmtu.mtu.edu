@@ -1,3 +1,8 @@
+/* general page styling */
+body {
+  font-family: MouseDeco, Arial;
+}
+
 /* random styles */
 .spacer {
   margin: 0 auto;
@@ -10,16 +15,23 @@
   height: 300px;
 }
 
-/* player styling */
+/* stream player styling */
+#stream {
+  text-align: center;
+}
+
 #player {
   font-size: 6em;
   color: #000000;
-  text-align: center;
 }
 
 #player span {
   display: inline-block;
   margin: 0 auto;
+}
+
+#current-track {
+  color: #000000;
 }
 
 /* background fade */
