@@ -1,6 +1,6 @@
 /* random styles */
 .spacer {
-  margin 0 auto;
+  margin: 0 auto;
   height: 100%;
 }
 
@@ -55,7 +55,7 @@
     }
 
     35% {
-        fill: ;
+        fill: #112c20;
         color: #112c20;
         background: #3D9970
     }
