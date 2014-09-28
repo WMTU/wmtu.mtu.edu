@@ -22,13 +22,17 @@ WMTU.initStream = function(){
     id: 'WMTUStream',
     url: 'http://stream.wmtu.mtu.edu:8000/listen',
     autoLoad: true,
-    autoPlay: true,
+    autoPlay: false,
     volume: 80,
     onplay: WMTU.onStreamPlaying,
     onresume: WMTU.onStreamPlaying,
     onpause: WMTU.onStreamPaused
   });
-
+  if(WMTU.streamObject.playState){
+    WMTU.onStreamPlaying();
+  }else{
+    WMTU.onStreamPaused();
+  }
 
 };
 
@@ -43,6 +47,7 @@ WMTU.bindThings = function(){
   $('#pause-button').click(function(){
     WMTU.streamObject.pause();
   });
+  $('#playlist-date').pickadate()
 };
 
 WMTU.setup = function(){

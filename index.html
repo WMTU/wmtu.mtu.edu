@@ -4,6 +4,9 @@
     <title>WMTU 91.9 FM</title>
     <link rel="stylesheet" type="text/css" href="bower_components/colors/css/colors.min.css"/>
     <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="bower_components/pickadate/lib/themes/classic.css"/>
+    <link rel="stylesheet" type="text/css" href="bower_components/pickadate/lib/themes/classic.date.css"/>
+    <link rel="stylesheet" type="text/css" href="bower_components/pickadate/lib/themes/classic.time.css"/>
     <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
     <link rel="stylesheet" type="text/css" href="css/background-fade.css"/>
     <link rel="stylesheet" type="text/css" href="css/btns.css"/>
@@ -12,6 +15,8 @@
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/soundmanager/script/soundmanager2.js"></script>
     <script type="text/javascript" src="bower_components/moment/min/moment.min.js"></script>
+    <script type="text/javascript" src="bower_components/pickadate/lib/picker.js"></script>
+    <script type="text/javascript" src="bower_components/pickadate/lib/picker.date.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
   </head>
   <body class="fade-bg">
@@ -46,6 +51,11 @@
       <div class="divider"></div>
       <div id="playlist">
         <h2>Playlist</h2>
+        <form id="playlist-date-picker" action="http://wmtu.mtu.edu/wp-content/wmtu-custom/playlist.php" method="post">
+          <div id="playlist-picker-container">
+            <input type="text" id="playlist-date" placeholder="Click to select date...">
+          </div>
+        </form>
       </div>
       <div class="divider"></div>
       <div id="station-info">

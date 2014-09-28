@@ -62,3 +62,30 @@ span {
 #department-contacts {
   margin: 1em auto;
 }
+
+
+/* playlist styling */
+#playlist-date {
+  border: 1px solid #000000;
+  background-color: inherit;
+  height: 1.5em;
+  width: 100%;
+  font-size: 2em;
+  color: #000000;
+  font-family: inherit;
+  text-align: center;
+}
+
+#playlist-picker-container{
+  margin-bottom: 1em;
+  min-width: 50%;
+  display:inline-block;
+}
+
+::-webkit-input-placeholder {
+   color: #000000;
+}
+
+.playlist-date_root{
+  margin: 0 auto;
+}
