@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="bower_components/colors/css/colors.min.css"/>
     <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css"/>
     <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="css/background-fade.css"/>
     <link rel="stylesheet" type="text/css" href="css/btns.css"/>
     <link rel="stylesheet" type="text/css" href="css/flexbox.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -13,7 +14,7 @@
     <script type="text/javascript" src="bower_components/moment/min/moment.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
   </head>
-  <body class="pulsate-bg">
+  <body class="fade-bg">
     <header>
       <img id="top-logo" class="pulsate-bg zoom" src="images/wmtu-logo.svg" alt="WMTU" />
     </header>
@@ -30,11 +31,11 @@
       <div class="divider"></div>
       <div id="navigation" class="flex">
         <span class="spacer"></span>
-        <a href="/archives/" class="btn item">Archives</a>
+        <a href="/archives/" target="_blank" class="btn item">Archives</a>
         <span class="spacer"></span>
-        <a href="/forum" class="btn item">Forum</a>
+        <a href="/forum" class="btn item" target="_blank" onclick="return confirm('Warning! The views expressed herein are those of the posters, and not necessarily those of WMTU, its staff, underwriters, or Michigan Technological University.')">Forum</a>
         <span class="spacer"></span>
-        <a href="#" class="btn item">Station Documents</a>
+        <a href="#" target="_blank" class="btn item">Station Documents</a>
         <span class="spacer"></span>
       </div>
       <div class="divider"></div>
@@ -49,7 +50,146 @@
       <div class="divider"></div>
       <div id="station-info">
         <h2>Contact</h2>
+        <div class="divider-small"></div>
+        <div id="boothphone">
+          <h4>Booth Phone: </h4>
+          <p>
+            (906) 487-1600
+          </p>
+        </div>
+        <div id="officephone">
+          <h4>Office Phone: </h4>
+          <p>
+            (906) 487-2333
+          </p>
+        </div>
+        <div class="divider-small"></div>
+        <div id="department-info">
+          <h4>Staff Departments</h4>
+          <table id="department-contacts">
+            <tr>
+              <th>
+                Position
+              </th>
+              <th>
+                Person
+              </th>
+              <th>
+                Office Hours
+              </th>
+              <th>
+                Email
+              </th>
+            </tr>
+            <tr>
+              <td>
+                General Manager
+              </td>
+              <td>
+                Joel Yauk
+              </td>
+              <td>
 
+              </td>
+              <td>
+                <a href="mailto:gm@mtu.edu">gm@mtu.edu</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Broadcast Supervisor
+              </td>
+              <td>
+                Andrew Diehl
+              </td>
+              <td>
+
+              </td>
+              <td>
+                <a href="mailto:wmtu-bs@mtu.edu">wmtu-bs@mtu.edu</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Head of Business
+              </td>
+              <td>
+                Joel Yauk
+              </td>
+              <td>
+                 Friday 6-8 PM
+              </td>
+              <td>
+                <a href="mailto:wmtu-bus@mtu.edu">wmtu-bus@mtu.edu</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Head of Technology
+              </td>
+              <td>
+                Neil Betham
+              </td>
+              <td>
+                Friday 5-6 PM
+              </td>
+              <td>
+                <a href="mailto:wmtu-tech@mtu.edu">wmtu-tech@mtu.edu</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Head of Productions
+              </td>
+              <td>
+                Eric Bartos
+              </td>
+              <td>
+                Sunday 4-6 PM
+              </td>
+              <td>
+                <a href="mailto:wmtu-pro@mtu.edu">wmtu-pro@mtu.edu</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Head of Programming
+              </td>
+              <td>
+                Alex Tetzloff
+              </td>
+              <td>
+                Thursday 5-7 PM
+              </td>
+              <td>
+                <a href="mailto:wmtu-prg@mtu.edu">wmtu-prg@mtu.edu</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Head of Marketing
+              </td>
+              <td>
+                Alison Alexsy
+              </td>
+              <td>
+                Friday 6-8 PM
+              </td>
+              <td>
+                <a href="mailto:wmtu-pr@mtu.edu">wmtu-pr@mtu.edu</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="divider-small"></div>
+        <div id="advisor">
+          <h4>Faculty Advisor</h4>
+          Travis Pierce
+          <br>
+          <a href="mailto:tlp@mtu.edu">tlp@mtu.edu</a>
+          <br>
+          (906) 487-2682
+        </div>
       </div>
     </main>
     <footer>
