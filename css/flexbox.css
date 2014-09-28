@@ -1,0 +1,21 @@
+.flex {
+  display: -webkit-flex;
+  display: flex;
+
+  flex-flow: row;
+  -webkit-flex-flow: row;
+
+  justify-content: flex-end space-between;
+  -webkit-justify-content: flex-end space-between;
+
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.flex .item {
+  margin: auto .5em auto;
+}
+
+.flex .spacer {
+  margin: auto;
+}
