@@ -90,6 +90,7 @@ span {
 /* playlist styling */
 #playlist-date {
   border: 1px solid #000000;
+  border-radius: 0.15em;
   background-color: inherit;
   height: 1.5em;
   width: 100%;
