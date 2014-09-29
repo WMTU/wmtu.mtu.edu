@@ -68,14 +68,30 @@ WMTU.bindThings = function(){
       WMTU.streamObject.play();
     }
   });
+
   $('#pause-button').click(function(){
     WMTU.streamObject.pause();
   });
+
   WMTU.datePicker = $('#playlist-date').pickadate().pickadate('picker');
-  WMTU.datePicker.on({
-    close: WMTU.handleDatePickerEvent
-  })
+
+  if(WMTU.datePicker){
+    WMTU.datePicker.on({
+      close: WMTU.handleDatePickerEvent
+    });
+  }
+  
   $("#playlist-table").hide();
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 150 && $(this).scrollTop() < 250){
+      $("#scrolltotop").css('visibility', 'visible');
+    } else if ($(this).scrollTop() > 250 ){
+      $("#scrolltotop").css('visibility', 'visible');
+    } else {
+      $("#scrolltotop").css('visibility', 'hidden');
+    }
+  });
 };
 
 WMTU.setup = function(){

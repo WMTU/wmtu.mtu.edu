@@ -2,14 +2,31 @@
 body {
   font-family: avenir, helvetica, arial, sans-serif;
   text-align: center;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+#scrolltotop {
+  font-size: 2em;
+  opacity: 0.6;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  color: #000000;
+  visibility: hidden;
+}
+
+/* on air styling */
+#onair img {
+  max-width: 800px;
+  width: 100%;
 }
 
 
 /* random styles */
 .divider {
   border-bottom: 1px solid #000000;
-  margin-right: 3%;
-  margin-left: 3%;
+  margin: .5em 0;
 }
 
 .divider-small {
@@ -77,7 +94,7 @@ span {
 }
 
 #playlist-picker-container{
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   min-width: 50%;
   display:inline-block;
 }
@@ -91,5 +108,12 @@ span {
 }
 
 #playlist-table{
+  margin: 1em auto;
+}
+
+/* station-documents */
+#constitution, #by-laws, #dj-training-guide{
+  text-align: left;
+  width: 80%;
   margin: 1em auto;
 }
