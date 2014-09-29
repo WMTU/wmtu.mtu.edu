@@ -5,15 +5,14 @@
   flex-flow: row;
   -webkit-flex-flow: row;
 
-  justify-content: flex-end space-between;
-  -webkit-justify-content: flex-end space-between;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
 
   align-items: center;
   -webkit-align-items: center;
-}
 
-.flex .item {
-  margin: auto .5em auto;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
 }
 
 .flex .spacer {
