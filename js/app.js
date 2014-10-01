@@ -10,6 +10,7 @@ WMTU.onStreamPaused = function(){
 };
 
 WMTU.handleDatePickerEvent = function(){
+  $('#playlist-date').blur();
   $("#playlist-table").empty().append("<tr><th>Time</th><th>Artist</th><th>Track Name</th></tr>");
   var pickedValue = WMTU.datePicker.get('select', 'yyyy mm dd');
   if(pickedValue != null & pickedValue != ""){
