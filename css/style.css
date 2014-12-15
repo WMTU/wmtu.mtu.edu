@@ -68,6 +68,10 @@ span {
   margin: 0 auto;
 }
 
+#player span:hover {
+  color: #333;
+}
+
 #current-track {
   margin: 1em;
   font-size: 1.5em;

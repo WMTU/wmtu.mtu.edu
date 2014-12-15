@@ -64,6 +64,7 @@ WMTU.initStream = function(){
 WMTU.bindThings = function(){
   $('#play-button').click(function(){
     if(WMTU.streamObject.paused){
+      WMTU.streamObject.setPosition(WMTU.streamObject.duration);
       WMTU.streamObject.resume();
     } else {
       WMTU.streamObject.play();
@@ -81,7 +82,7 @@ WMTU.bindThings = function(){
       close: WMTU.handleDatePickerEvent
     });
   }
-  
+
   $("#playlist-table").hide();
 
   $(window).scroll(function() {

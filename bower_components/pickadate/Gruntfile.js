@@ -26,6 +26,7 @@ module.exports = function( grunt ) {
     grunt.loadNpmTasks( 'grunt-contrib-less' )
     grunt.loadNpmTasks( 'grunt-contrib-cssmin' )
     grunt.loadNpmTasks( 'grunt-contrib-uglify' )
+    grunt.loadNpmTasks( 'grunt-autoprefixer' )
 
 
     // Setup the initial configurations.
@@ -75,26 +76,6 @@ module.exports = function( grunt ) {
                 src: [ '/!(base|hero)*.htm' ],
                 dest: '',
                 base: '/base.htm'
-            }
-        },
-
-
-        // Copy over files to destination directions.
-        copy: {
-            pkg: {
-                options: {
-                    processContent: function( content ) {
-                        return grunt.template.process( content, { delimiters: 'curly' } )
-                    }
-                },
-                files: [
-                    { '<%= pkg.name %>.jquery.json': 'package.json' },
-                    { 'bower.json': 'package.json' },
-                    { 'README.md': '<%= dirs.docs.src %>/README.md' },
-                    { 'LICENSE.md': '<%= dirs.docs.src %>/LICENSE.md' },
-                    { 'CHANGELOG.md': '<%= dirs.docs.src %>/CHANGELOG.md' },
-                    { 'CONTRIBUTING.md': '<%= dirs.docs.src %>/CONTRIBUTING.md' }
-                ]
             }
         },
 
@@ -167,6 +148,20 @@ module.exports = function( grunt ) {
         },
 
 
+        // Prefix the styles.
+        autoprefixer: {
+            options: {
+                browsers: [ '> 5%', 'last 2 versions', 'ie 8', 'ie 9' ]
+            },
+            themes: {
+                src: '<%= dirs.themes.dest %>/**/*.css'
+            },
+            demo: {
+                src: '<%= dirs.demo.styles.dest %>/**/*.css'
+            }
+        },
+
+
         // Unit test the files.
         qunit: {
             lib: [ '<%= dirs.tests %>/units/all.htm' ]
@@ -175,34 +170,19 @@ module.exports = function( grunt ) {
 
         // Watch the project files.
         watch: {
-            quick: {
-                files: [
-                    '<%= dirs.docs.src %>/**/*.htm',
-                    '<%= dirs.docs.src %>/**/*.md',
-                    '<%= dirs.demo.src %>/styles/**/*.less',
-                    '<%= dirs.themes.src %>/**/*.less'
-                ],
-                tasks: [ 'quick' ]
-            },
-            demo: {
-                files: [
-                    '<%= dirs.demo.styles.src %>/**/*.less'
-                ],
-                tasks: [ 'demo' ]
-            },
-            docs: {
-                files: [
-                    '<%= dirs.docs.src %>/**/*.htm',
-                    '<%= dirs.docs.src %>/**/*.md'
-                ],
-                tasks: [ 'docs' ]
-            },
-            themes: {
+            develop: {
                 files: [
                     '<%= dirs.themes.src %>/**/*.less'
                 ],
-                tasks: [ 'themes' ]
-            }
+                tasks: [ 'develop-once' ]
+            },
+            document: {
+                files: [
+                    '<%= dirs.docs.src %>/**/*.htm',
+                    '<%= dirs.demo.styles.src %>/**/*.less',
+                ],
+                tasks: [ 'document-once' ]
+            },
         },
 
 
@@ -224,13 +204,19 @@ module.exports = function( grunt ) {
 
 
     // Register the tasks.
-    // * `htmlify` and `copy:pkg` should come after `uglify` because some package files measure `.min` file sizes.
-    grunt.registerTask( 'default', [ 'less', 'jshint', 'qunit', 'uglify', 'cssmin', 'htmlify', 'copy:pkg' ] )
-    grunt.registerTask( 'quick', [ 'less', 'uglify', 'cssmin', 'htmlify', 'copy:pkg' ] )
-    grunt.registerTask( 'themes', [ 'less:themes' ] )
-    grunt.registerTask( 'demo', [ 'less:demo', 'jshint:demo' ] )
-    grunt.registerTask( 'docs', [ 'copy:pkg', 'htmlify:docs' ] )
-    grunt.registerTask( 'travis', [ 'jshint:lib', 'qunit:lib' ] )
+    grunt.registerTask( 'default', [ 'develop' ] )
+
+    grunt.registerTask( 'develop', [ 'develop-once', 'watch:develop' ] )
+    grunt.registerTask( 'develop-once', [ 'less:themes', 'autoprefixer:themes' ] )
+
+    grunt.registerTask( 'document', [ 'document-once', 'watch:document' ] )
+    grunt.registerTask( 'document-once', [ 'less:demo', 'autoprefixer:demo', 'package' ] )
+
+    grunt.registerTask( 'package', [ 'uglify', 'cssmin', 'htmlify' ] )
+
+    grunt.registerTask( 'test', [ 'jshint', 'qunit' ] )
+
+    grunt.registerTask( 'build', [ 'develop-once', 'document-once', 'package', 'test' ] )
 
 
 
