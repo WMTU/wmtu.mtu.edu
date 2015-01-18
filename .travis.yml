@@ -6,7 +6,7 @@ before_install:
 script: jekyll build
 after_success:
   - cd _site
-  - ruby scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu ./_site /var/www
+  - ruby ../scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu . /var/www/
 branches:
   only:
   - master
