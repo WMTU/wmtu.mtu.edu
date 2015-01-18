@@ -14,4 +14,14 @@ Some specific things to take note of:
  - The site has some simple php, to render json for the current song info and playlists, located in the php folder
  - Scripts related to building and syncing should go in the scripts folder
  - Any client side js and css libraries should be installed using bower and loaded from their respective folders
- 
+ - Any builds that error won't push to production
+
+For large changes, please put them in their own branch so every commit you push that breaks everything doesn't get
+pushed to production. Once you're done making your changes merge master to your branch, make sure everything
+is and then merge into master.
+
+While you are developing updates test them locally with `jekyll serve` that way you can see the changes before
+they get pushed and you can catch any issues before they get pushed to production.
+
+If you want to skip building and pushing for a specific commit put `[ci skip]` somewhere in your git commit message
+and that will skip the build process
