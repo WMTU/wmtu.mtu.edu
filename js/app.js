@@ -94,9 +94,9 @@ WMTU.bindThings = function(){
     }
   });
 
-  $(document).pjax('[data-pjax] a, a[data-pjax]', '#pjax-container');
-  $(document).on("pjax:timeout", function() { return false; });
-  $(document).on("pjax:error", function() { console.log('pjax error'); });
+  $(document).pjax('[data-pjax] a, a[data-pjax]', '.page-content', { fragment: '.page-content' });
+
+  $(document).on("pjax:timeout", function(event) { event.preventDefault(); });
 };
 
 WMTU.setup = function(){

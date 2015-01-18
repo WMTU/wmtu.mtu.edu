@@ -33,10 +33,12 @@ main {
 .divider, hr {
   border: none;
   border-bottom: 1px solid #000000;
-  margin: .5em 0;
+  margin: 1em 0;
 }
 
 .divider-small {
+  margin-top: .25em;
+  margin-bottom: .25em;
   border-bottom: 1px solid #000000;
   margin-right: 15%;
   margin-left: 15%;
