@@ -8,7 +8,8 @@ after_success: ruby scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu ./_site /var
 branches:
   only:
   - master
-USERNAME:
-  secure: oBDCDptpexV1ZcnJVmQtCOOZt/wKEfmI16gGFYVJ2HO9fpiYET6hiy3q5ze6Vaqd3Z9IZ1+d6LjrqyeyN38/xJcnhY1J074nzrjQnX/mMUO+X3XLnw6fEVl+lf/k1FaT1qHPSR2YSlG5R2uDJVFJn6bu8QNW16NQ5eFgi+4Fghs=
-PASSWORD:
-  secure: M+mX2z8pT8hZDk6GsO5BZYY/bkNkmNh3LMjPR+I0uUEuKIvEZx9ywKX2aE139DliXnxV16CxW3mo7zGnegLAFLy126ZC0xY5ZHT88rM1sZdvf+a0aLaOcyaqWjYhwKgm6wvcUUCDW4oeL6M30z01/xbt0K/oB6TWRYz+wcvx2+Q=
+
+env:
+  global:
+  - secure: U62MFwHsx+JZtUKu96d1HoODhHhv+qkoHSw8XeR61JsKm1zIUs1ljZcgQW8D+Rn60TvpkrnUdvc64VDoiXq4qly9gvBY1ntMbJJiO6IZA8cY36I73QiBYBDokNSq7NMcN67U15SLDyN7MvsuUVObvosXtGeIaC38kq93PGN96oQ=
+  - secure: SC3zeEJL4C6Ofakb8GajILGks2BWO303OCijVMt5000v0kutStvOVmD2dpNSsc0KyEa+2eoKVOV0maj7mvENscgONl+gBFy4m6cRImzum7x0hHAq1CEg7sASZgnHXuBVImu704/I2BeGYi8CDNO61spftv1HN2meupyCRiDrjQI=
