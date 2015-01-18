@@ -2,7 +2,7 @@
 # Main Javascript file
 ---
 
-WMTU = {}
+WMTU = window.WMTU = {}
 WMTU.onStreamPlaying = ->
   $('#play-button').hide()
   $('#pause-button').show()
@@ -87,12 +87,6 @@ WMTU.bindThings = ->
     else
       $("#scrolltotop").css('visibility', 'hidden')
 
-  $(document).pjax '[data-pjax] a, a[data-pjax]', '.page-content',
-    fragment: '.page-content'
-
-  $(document).on "pjax:timeout", (event)->
-    event.preventDefault()
-
 WMTU.setup = ->
   soundManager.setup
     url: 'bower_components/soundmanager/swf/',
@@ -102,5 +96,15 @@ WMTU.setup = ->
   WMTU.bindThings()
   WMTU.streamInfoUpdateLoop()
 
+  $(document).pjax '[data-pjax] a, a[data-pjax]', '.page-content',
+    fragment: '.page-content'
+
+  $(document).on "pjax:timeout", (event)->
+    event.preventDefault()
+
 $(document).ready ->
   WMTU.setup()
+
+$(document).on "pjax:success", (event)->
+  $("body *").off();
+  WMTU.bindThings()
