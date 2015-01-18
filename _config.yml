@@ -15,3 +15,4 @@ markdown: kramdown
 
 # WMTU Settings
 stream_url: http://stream.wmtu.mtu.edu:8000/listen
+stream_playlist: http://stream.wmtu.mtu.edu:8000/listen.m3u
