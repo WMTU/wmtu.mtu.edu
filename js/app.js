@@ -64,7 +64,6 @@ WMTU.initStream = function(){
 WMTU.bindThings = function(){
   $('#play-button').click(function(){
     if(WMTU.streamObject.paused){
-      WMTU.streamObject.setPosition(WMTU.streamObject.duration);
       WMTU.streamObject.resume();
     } else {
       WMTU.streamObject.play();
@@ -108,4 +107,9 @@ WMTU.setup = function(){
 
 $(document).ready(function(){
   WMTU.setup();
+  $(document).pjax('[data-pjax] a, a[data-pjax]', '#pjax-container');
+  $(document).on("pjax:timeout", function() { return false; });
+  $.pjax({url: 'html/main.html', container: '#pjax-container'})
 });
+
+$(document).on("pjax:end", function() { WMTU.setup(); });
