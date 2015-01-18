@@ -1,6 +1,8 @@
 <?php
   // Create connection
-  $con = mysqli_connect("localhost","djfeed","password","djlogs");
+  $configs = include('config.php');
+
+  $con = mysqli_connect($configs['hostname'], $configs['username'], $configs['password'], $configs['database']);
 
   // Check connection
   if (mysqli_connect_errno()){
