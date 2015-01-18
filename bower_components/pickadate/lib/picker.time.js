@@ -1,5 +1,5 @@
 /*!
- * Time picker for pickadate.js v3.5.0
+ * Time picker for pickadate.js v3.5.5
  * http://amsul.github.io/pickadate.js/time.htm
  */
 
@@ -76,8 +76,7 @@ function TimePicker( picker, settings ) {
     // also sets the `highlight` and `view`.
     if ( valueString ) {
         clock.set( 'select', valueString, {
-            format: formatString,
-            fromValue: !!elementValue
+            format: formatString
         })
     }
 

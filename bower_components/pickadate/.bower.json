@@ -53,11 +53,11 @@
     "phantomjs": "^1.9.7-5",
     "zlib-browserify": "0.0.3"
   },
-  "_release": "d9eb60378f",
+  "_release": "89cc7632df",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "d9eb60378f3de9da3217f38a6d4a23ddb2a9dc30"
+    "commit": "89cc7632df8d9d14cb04d7e74d11e131eb769017"
   },
   "_source": "https://github.com/amsul/pickadate.js.git",
   "_target": "master",

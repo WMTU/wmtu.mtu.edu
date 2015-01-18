@@ -1,0 +1,14 @@
+# Site settings
+title: WMTU 91.9 FM Houghton
+email: wmtu@mtu.edu
+description: > # this means to ignore newlines until "baseurl:"
+  WMTU is funded by the Undergraduate Student Government of Michigan Technological University.
+  WMTU's bandwidth provided by Resnet
+  © WMTU 91.9FM Houghton | Michigan Technological University 2015
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://wmtu.mtu.edu" # the base hostname & protocol for your site
+twitter_username: WMTU
+github_username:  WMTU
+
+# Build settings
+markdown: kramdown

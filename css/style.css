@@ -30,7 +30,8 @@ main {
 
 
 /* random styles */
-.divider {
+.divider, hr {
+  border: none;
   border-bottom: 1px solid #000000;
   margin: .5em 0;
 }
@@ -122,13 +123,6 @@ span {
   margin: 1em auto;
 }
 
-/* station-documents */
-#constitution, #by-laws, #dj-training-guide{
-  text-align: left;
-  width: 80%;
-  margin: 1em auto;
-}
-
 /* footer styling */
 footer {
   margin-top: 1em;
@@ -136,4 +130,10 @@ footer {
   text-align: left;
   background-color: rgba(0,0,0,0.6);
   color: #888888;
+}
+
+.page {
+  text-align: left;
+  width: 80%;
+  margin: 1em auto;
 }

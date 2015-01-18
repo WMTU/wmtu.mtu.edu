@@ -30,7 +30,7 @@ WMTU.renderPlaylist = function(data){
   for(var i = 0; i < data.length; i++){
     var row = $("<tr />");
     $("#playlist-table").append(row);
-    row.append($("<td>" + moment(data[i].ts, "YYYY-MM-DD HH:mm:ss").calendar() + "</td>"));
+    row.append($("<td>" + moment(data[i].ts, "YYYY-MM-DD HH:mm:ss").format("h:mm A") + "</td>"));
     row.append($("<td>" + data[i].artist + "</td>"));
     row.append($("<td>" + data[i].song_name + "</td>"));
   }
@@ -93,6 +93,10 @@ WMTU.bindThings = function(){
       $("#scrolltotop").css('visibility', 'hidden');
     }
   });
+
+  $(document).pjax('[data-pjax] a, a[data-pjax]', '#pjax-container');
+  $(document).on("pjax:timeout", function() { return false; });
+  $(document).on("pjax:error", function() { console.log('pjax error'); });
 };
 
 WMTU.setup = function(){
@@ -107,9 +111,8 @@ WMTU.setup = function(){
 
 $(document).ready(function(){
   WMTU.setup();
-  $(document).pjax('[data-pjax] a, a[data-pjax]', '#pjax-container');
-  $(document).on("pjax:timeout", function() { return false; });
-  $.pjax({url: 'html/main.html', container: '#pjax-container'})
 });
 
-$(document).on("pjax:end", function() { WMTU.setup(); });
+$(document).on("pjax:end", function() {
+  WMTU.setup();
+});

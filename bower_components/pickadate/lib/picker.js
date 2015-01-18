@@ -1,5 +1,5 @@
 /*!
- * pickadate.js v3.5.0, 2014/04/13
+ * pickadate.js v3.5.5, 2015/01/6
  * By Amsul, http://amsul.ca
  * Hosted on http://amsul.github.io/pickadate.js
  * Licensed under MIT
@@ -113,6 +113,11 @@ function PickerConstructor( ELEMENT, NAME, COMPONENT, OPTIONS ) {
 
                 // Prepare the input element.
                 prepareElement()
+
+
+                // Insert the hidden input as specified in the settings.
+                if ( SETTINGS.containerHidden ) $( SETTINGS.containerHidden ).append( P._hidden )
+                else $ELEMENT.after( P._hidden )
 
 
                 // Insert the root as specified in the settings.
@@ -776,11 +781,6 @@ function PickerConstructor( ELEMENT, NAME, COMPONENT, OPTIONS ) {
                     P.get('select', SETTINGS.formatSubmit) :
                     ''
             })
-
-
-        // Insert the hidden input as specified in the settings.
-        if ( SETTINGS.container ) $( SETTINGS.container ).append( P._hidden )
-        else $ELEMENT.after( P._hidden )
     }
 
 
@@ -819,10 +819,8 @@ function PickerConstructor( ELEMENT, NAME, COMPONENT, OPTIONS ) {
         // Stop the event from propagating to the doc.
         event.stopPropagation()
 
-        // If it’s a focus event, add the “focused” class to the root.
-        if ( event.type == 'focus' ) {
-            P.$root.addClass( CLASSES.focused )
-        }
+        // Add the “focused” class to the root.
+        P.$root.addClass( CLASSES.focused )
 
         // And then finally open the picker.
         P.open()
