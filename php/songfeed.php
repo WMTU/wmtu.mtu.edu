@@ -1,4 +1,6 @@
 <?php
+	$configs = include('config.php');
+
 	// Create connection
 	$con = mysqli_connect($configs['hostname'], $configs['username'], $configs['password'], $configs['database']);
 
