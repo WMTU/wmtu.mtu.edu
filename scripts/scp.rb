@@ -7,8 +7,6 @@ host = ARGV[2]
 src = ARGV[3]
 dest = ARGV[4]
 
-puts "host: #{host}"
-
 Net::SCP.upload!(host, username, src, dest, ssh: { password: password }, recursive: true) do |ch, name, sent, total|
   puts "#{name}: #{sent}/#{total}"
 end
