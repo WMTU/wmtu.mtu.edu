@@ -12,3 +12,6 @@ github_username:  WMTU
 
 # Build settings
 markdown: kramdown
+
+# WMTU Settings
+streamurl: http://stream.wmtu.mtu.edu:8000/listen
