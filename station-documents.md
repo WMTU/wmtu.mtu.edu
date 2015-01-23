@@ -37,6 +37,19 @@ __Section 1.__ General Staff
 2. Each member of General Staff shall have one vote at General Staff meetings.
 3. A person is eligible to be appointed to General Staff after he or she has attended 3 General Staff meetings or has been present through the entirety of one senior staff election.
 
+__Section 1.1.__ Active Staff
+
+1. Each Member of active staff shall have one vote at General Staff meetings.
+2. A member shall be considered active at the time that they are voted onto staff.
+3. All General Staff Members will be considered active staff unless moved to the Inactive list as stated in WMTU Const. art. §3.1.1-2.1.
+
+__Section 1.2.__ Inactive Staff
+
+Any active member who fails to attend three General Staff meetings without giving prior notice to the secretary (WMTU Const. art. §4.1.2) shall be considered Inactive Staff. 
+
+1. A staff member who is considered Inactive retains all rights of, and must abide by all rules which apply to active general staff members except the ability to vote in general staff meetings.
+2. Attendance of three consecutive General Staff meetings by an inactive staff member is required to return to Active Staff, and active membership is re-established at the beginning of the third attended meeting.
+
 __Section 2.__ The Senior Staff of WMTU shall consist of a General Manager, plus six Department Heads, whose titles shall be as follows:
 
 1. Head of Business (Business Manager)
@@ -72,7 +85,7 @@ __Section 5.__ WMTU shall not discriminate on the basis of race, religion, color
 __Section 1.__ General Staff meetings
 
 1.  General Staff meetings shall be called by the General Manager at least once per week during the academic year, excluding term breaks, and at other times deemed necessary.
-2.  Unless excused beforehand by the General Manager or his or her designate, attendance of General Staff meetings is mandatory for all Senior Staff members and General Staff members within the organization.
+2.  Unless excused beforehand by the General Manager or his or her designate, attendance of General Staff meetings is mandatory for all Senior Staff members and General Staff members within the organization. In the event attendance to a General Staff meeting by a General Staff member is not possible, prior notice MUST be given to the Secretary (or attendance record keeper as designated by the General Manager).
 3.  The purpose of General Staff meetings shall be to review budget expenditures, approve expenditures outside of the budget, approve amendments to the Constitution and Bylaws, elect Senior Staff members, appoint General Staff members, approve General Staff appointments, take action concerning the removal or reinstatement of Staff members, and make other decisions concerning the smooth operation of the Station.
 4.  A majority of General Staff members must be present to constitute a quorum at a General Staff meeting.
 5.  The General Manager shall only vote at General Staff meetings in the event of a tie.
