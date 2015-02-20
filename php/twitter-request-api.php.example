@@ -1,0 +1,22 @@
+<?php
+
+require_once('TwitterAPIExchange.php');
+
+/** Set access tokens here - see: https://dev.twitter.com/apps/ **/
+$settings = array(
+    'oauth_access_token' => "OAUTH ACCESS TOKEN",
+    'oauth_access_token_secret' => "OAUTH ACCESS TOKEN SECRET",
+    'consumer_key' => "CONSUMER KEY",
+    'consumer_secret' => "CONSUMER SECRET"
+);
+
+/** URL for REST request, see: https://dev.twitter.com/docs/api/1.1/ **/
+$url = 'https://api.twitter.com/1.1/search/tweets.json';
+$getfield = '?q=%23WMTUrequest&result_type=recent&count=3';
+$requestMethod = 'GET';
+$twitter = new TwitterAPIExchange($settings);
+echo $twitter->setGetfield($getfield)
+             ->buildOauth($url, $requestMethod)
+             ->performRequest();
+
+?>
