@@ -1,6 +1,7 @@
 <?php
 
-require_once('TwitterAPIExchange.php');
+require_once('TwitterAPIExchange.php
+include("XML/Serializer.php");
 
 /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
 $settings = array(
@@ -15,8 +16,26 @@ $url = 'https://api.twitter.com/1.1/search/tweets.json';
 $getfield = '?q=%23WMTUrequest&result_type=recent&count=3';
 $requestMethod = 'GET';
 $twitter = new TwitterAPIExchange($settings);
-echo $twitter->setGetfield($getfield)
-             ->buildOauth($url, $requestMethod)
-             ->performRequest();
+
+$json = $twitter->setGetfield($getfield)
+                ->buildOauth($url, $requestMethod)
+                ->performRequest();
+$obj = json_decode($json);
+
+// An array of serializer options
+$serializerOptions = array (
+  'addDecl' => TRUE,
+  'encoding' => 'ISO-8859-1',
+  'indent' => "    ",
+  'linebreak' => "\n",
+  'rootName' => 'json',
+  'mode' => 'simplexml'
+);
+$serializer = new XML_Serializer($serializerOptions);
+$status = $serializer->serialize($obj);
+
+if (PEAR::isError($status)) die($status->getMessage());
+
+echo htmlspecialchars($serializer->getSerializedData());
 
 ?>
