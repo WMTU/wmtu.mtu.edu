@@ -7,10 +7,10 @@ header('Content-Type: application/rss+xml');
 
 /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
 $settings = array(
-    'oauth_access_token' => "19622302-R7jZWzvkY2QIqKwvAsNTJsJIgByck0uHhdSgcE4X1",
-    'oauth_access_token_secret' => "ipV9tLhVIThLxWGH5ln28N7ZoCM0bnXsQTcUzUAXBF457",
-    'consumer_key' => "haRuHzd38HlvvgHRxu04otHT5",
-    'consumer_secret' => "jc5PKzReAflvNdB3CdeSyty7vXudj7yMfjNObt1TWHJBNjGa77"
+    'oauth_access_token' => "",
+    'oauth_access_token_secret' => "",
+    'consumer_key' => "",
+    'consumer_secret' => ""
 );
 
 /** URL for REST request, see: https://dev.twitter.com/docs/api/1.1/ **/
