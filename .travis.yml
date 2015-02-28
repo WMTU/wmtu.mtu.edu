@@ -1,12 +1,17 @@
 language: ruby
+sudo: false
 before_install:
 - travis_retry gem install jekyll
+- travis_retry gem install net-scp
 script: jekyll build
-after_success: bitballoon deploy _site --access-token=$BB_ACCESS_TOKEN --site-id=$BB_SITE_ID
+after_success:
+  - cd _site
+  - ruby ../scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu . /var/www/
 branches:
   only:
   - master
-PASSWORD:
-  secure: SwlLi81yLfCj0FyuteMrOihtxvD8CXk5OCyYaW5vYO+LvBtbpOaEYjNwqoBrs7cDOWig05dpBjNA2XJOjhu11ffIv1kzdMGh9ikquuhFxeMAI2I80xi1ZHKNi+kQ+rnkDScpAbzDXt8ScTx+yGCT2N+VtCOVgogyfodnOWhsSbE=
-USERNAME:
-  secure: oBDCDptpexV1ZcnJVmQtCOOZt/wKEfmI16gGFYVJ2HO9fpiYET6hiy3q5ze6Vaqd3Z9IZ1+d6LjrqyeyN38/xJcnhY1J074nzrjQnX/mMUO+X3XLnw6fEVl+lf/k1FaT1qHPSR2YSlG5R2uDJVFJn6bu8QNW16NQ5eFgi+4Fghs=
+
+env:
+  global:
+  - secure: U62MFwHsx+JZtUKu96d1HoODhHhv+qkoHSw8XeR61JsKm1zIUs1ljZcgQW8D+Rn60TvpkrnUdvc64VDoiXq4qly9gvBY1ntMbJJiO6IZA8cY36I73QiBYBDokNSq7NMcN67U15SLDyN7MvsuUVObvosXtGeIaC38kq93PGN96oQ=
+  - secure: SC3zeEJL4C6Ofakb8GajILGks2BWO303OCijVMt5000v0kutStvOVmD2dpNSsc0KyEa+2eoKVOV0maj7mvENscgONl+gBFy4m6cRImzum7x0hHAq1CEg7sASZgnHXuBVImu704/I2BeGYi8CDNO61spftv1HN2meupyCRiDrjQI=

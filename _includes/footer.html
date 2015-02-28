@@ -14,7 +14,7 @@
         <ul class="social-media-list">
           {% if site.twitter_username %}
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
+            <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
               <span class="icon  icon--twitter">
                 <svg viewBox="0 0 16 16">
                   <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
@@ -28,7 +28,8 @@
           {% endif %}
           {% if site.stream_playlist %}
           <li>
-            Player not working? Stream WMTU with <a href="{{ site.stream_playlist }}">this</a>
+            Player not working? <br>
+            Stream WMTU with <a target="_blank" href="{{ site.stream_playlist }}">this</a>
           </li>
           {% endif %}
         </ul>
@@ -49,3 +50,4 @@
   <script type="text/javascript" src="/bower_components/pickadate/lib/picker.date.js"></script>
   <script type="text/javascript" src="/js/app.js"></script>
 </footer>
+<a href="#" id="scrolltotop"><i class="fa fa-chevron-up"></i></a>

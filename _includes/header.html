@@ -12,17 +12,13 @@
     </div>
     <div class="divider"></div>
     <div id="navigation" class="flex">
-      <span class="spacer"></span>
+      <a href="{{ "/archives/" | prepend: site.baseurl }}" target="_blank" class="btn item">Archives</a>
+      <a href="{{ "/forum" | prepend: site.baseurl }}" target="_blank" class="btn item" onclick="return confirm('Warning! The views expressed herein are those of the posters, and not necessarily those of WMTU, its staff, underwriters, or Michigan Technological University.')">Forum</a>
       {% for page in site.pages %}
         {% if page.title %}
           <a class="btn item" data-pjax href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          <span class="spacer"></span>
         {% endif %}
       {% endfor %}
-      <a href="{{ "/archives/" | prepend: site.baseurl }}" target="_blank" class="btn item">Archives</a>
-      <span class="spacer"></span>
-      <a href="{{ "/forum" | prepend: site.baseurl }}" target="_blank" class="btn item" onclick="return confirm('Warning! The views expressed herein are those of the posters, and not necessarily those of WMTU, its staff, underwriters, or Michigan Technological University.')">Forum</a>
-      <span class="spacer"></span>
     </div>
     <div class="divider"></div>
   </div>

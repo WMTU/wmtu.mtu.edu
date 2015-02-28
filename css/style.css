@@ -100,17 +100,19 @@ span {
   border-radius: 0.15em;
   background-color: inherit;
   height: 1.5em;
-  width: 100%;
-  font-size: 2em;
   color: #000000;
   font-family: inherit;
   text-align: center;
+  font-size: 1.5em;
 }
 
 #playlist-picker-container{
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 2em;
-  min-width: 50%;
-  display:inline-block;
+  width: -moz-min-content;
+  width: -webkit-min-content;
+  width: min-content;
 }
 
 ::-webkit-input-placeholder {
@@ -138,4 +140,14 @@ footer {
   text-align: left;
   width: 80%;
   margin: 1em auto;
+}
+
+#playlist-date_root {
+  left: 0;
+  height: 0;
+}
+
+.picker__holder {
+  position: relative;
+  margin: 0 auto;
 }
