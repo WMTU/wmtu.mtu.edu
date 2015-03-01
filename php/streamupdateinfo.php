@@ -3,15 +3,15 @@
   $configs = include('config.php');
   
   /* Database Connection and Selection */
-  $mysql_connection = mysql_connect($configs['hostname'], $configs['username'], $configs['password'], $configs['database']);
+  $mysql_connection = mysqli_connect($configs['hostname'], $configs['username'], $configs['password'], $configs['database']);
   if(mysqli_connect_errno()){
     die('Could not connect: '.mysql_error());
   }
   
   /* Get data from the table */
   $query = "SELECT * FROM djlogs ORDER BY ID DESC LIMIT 1";
-  $data = mysql_query($mysql_connection, $query);
-  $row = mysql_fetch_assoc($data);
+  $data = mysqli_query($mysql_connection, $query);
+  $row = mysqli_fetch_assoc($data);
   
   $artist = $row['artist'];
   $song = $row['song_name'];
