@@ -9,8 +9,8 @@
   }
   
   /* Get data from the table */
-  $query = "select * from djlogs ORDER BY ID DESC LIMIT 1";
-  $data = mysql_query($query);
+  $query = "SELECT * FROM djlogs ORDER BY ID DESC LIMIT 1";
+  $data = mysql_query($mysql_connection, $query);
   $row = mysql_fetch_assoc($data);
   
   $artist = $row['artist'];
@@ -18,7 +18,7 @@
   
   /* Setup curl session */
   $cSesh = curl_init();
-  curl_setopt( $cSesh, CURLOPT_URL, $configs['icecast_url']."admin/metadata?mount=/listen&mode=updinfo&song=".urlencode($artist." | ".$song));
+  curl_setopt($cSesh, CURLOPT_URL, $configs['icecast_url']."admin/metadata?mount=/listen&mode=updinfo&song=".urlencode($artist." | ".$song));
   curl_setopt($cSesh, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
   curl_setopt($cSesh, CURLOPT_USERPWD, $configs['icecast_credentials']);
   
