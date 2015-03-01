@@ -1,19 +1,11 @@
 <?php
-  $userName = 'username';
-  $pass = 'password';
-  $DBserver = 'localhost';
-  $url = "icecast url";
-  $icecast_credentials = "username:password";
+  /* Load config */
+  $configs = include('config.php');
   
   /* Database Connection and Selection */
-  $mysqlCon = mysql_connect($DBserver, $userName, $pass);
-  if(!$mysqlCon){
+  $mysql_connection = mysql_connect($configs['hostname'], $configs['username'], $configs['password'], $configs['database']);
+  if(!$mysql_connection){
     die('Could not connect: '.mysql_error());
-  }
-  
-  $djLogsDB = mysql_select_db('djlogs', $mysqlCon);
-  if(!$djLogsDB){
-    die('Could not load database: '.mysql_error());
   }
   
   /* Get data from the table */
@@ -26,9 +18,9 @@
   
   /* Setup curl session */
   $cSesh = curl_init();
-  curl_setopt( $cSesh, CURLOPT_URL, $url."admin/metadata?mount=/listen&mode=updinfo&song=".urlencode($artist." | ".$song));
+  curl_setopt( $cSesh, CURLOPT_URL, $configs['icecast_url']."admin/metadata?mount=/listen&mode=updinfo&song=".urlencode($artist." | ".$song));
   curl_setopt($cSesh, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
-  curl_setopt($cSesh, CURLOPT_USERPWD, $icecast_credentials);
+  curl_setopt($cSesh, CURLOPT_USERPWD, $configs['icecast_credentials']);
   
   /* Execute Curl Command */
   $result = curl_exec($cSesh);
@@ -36,6 +28,7 @@
   $code = curl_getinfo ($cSesh, CURLINFO_HTTP_CODE);
   $urlEf = curl_getinfo($cSesh, CURLINFO_EFFECTIVE_URL);
   
+  /* Echo out the results */
   echo $urlEf.$code.$artist.$song;
   
   curl_close($cSesh);
