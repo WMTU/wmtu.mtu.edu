@@ -5,6 +5,8 @@ return array(
   'username' => 'root',
   'password' => 'password',
   'database' => 'djlogs',
+  'icecast_url' => 'http://localhost:8000',
+  'icecast_credentials' => 'username:password'
 );
 
 ?>
