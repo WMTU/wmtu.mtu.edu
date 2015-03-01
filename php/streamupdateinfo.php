@@ -4,7 +4,7 @@
   
   /* Database Connection and Selection */
   $mysql_connection = mysql_connect($configs['hostname'], $configs['username'], $configs['password'], $configs['database']);
-  if(!$mysql_connection){
+  if(mysqli_connect_errno()){
     die('Could not connect: '.mysql_error());
   }
   
