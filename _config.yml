@@ -14,7 +14,7 @@ github_username:  WMTU
 markdown: kramdown
 
 # WMTU Settings
-stream_url: http://stream.wmtu.mtu.edu:8000/listen
-stream_playlist: http://stream.wmtu.mtu.edu:8000/listen.m3u
+stream_url: http://54.86.47.36:8000/listen
+stream_playlist: http://54.86.47.36:8000/listen.m3u
 
 exclude: [README.md, Gemfile, Gemfile.lock, scripts, bower_components/soundmanager/demo, bower_components/jquery/src]
