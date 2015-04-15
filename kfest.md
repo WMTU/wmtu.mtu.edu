@@ -13,7 +13,7 @@ permalink: /kfest-2015/
 <script>
   jwplayer.key="QOM8nBM9YblVTd5FdhWTW9bYOmkMd0CmACOrA1+gZeE=";
   jwplayer("live-video").setup({
-  	file: "http://livestreaming.mtu.edu:1935/198/cdfeb2ee3226751df22193b09fc4da18/playlist.m3u8",
+  	file: "http://livestreaming.mtu.edu:1935/199/a97019f6515b11b54e68373ed5d8d8d2/playlist.m3u8",
   	height: 540,
   	width: 960,
   	androidhls: true
