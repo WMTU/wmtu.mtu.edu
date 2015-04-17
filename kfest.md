@@ -6,10 +6,11 @@ permalink: /kfest-2015/
 
 ----
 
-# Video Streaming
+# Streaming
+
+Streaming will start at 7 PM
 
 <div id="live-video">Loading...</div>
-<script src="//www.mtu.edu/mtu_resources/video/6.8/jwplayer.js"></script>
 <script>
   jwplayer.key="QOM8nBM9YblVTd5FdhWTW9bYOmkMd0CmACOrA1+gZeE=";
   jwplayer("live-video").setup({
