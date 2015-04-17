@@ -6,6 +6,28 @@ permalink: /kfest-2015/
 
 ----
 
+# Streaming
+
+Streaming will start at 7 PM
+
+<div id="live-video">Loading...</div>
+<script>
+  jwplayer.key="QOM8nBM9YblVTd5FdhWTW9bYOmkMd0CmACOrA1+gZeE=";
+  jwplayer("live-video").setup({
+  	file: "http://livestreaming.mtu.edu:1935/198/cdfeb2ee3226751df22193b09fc4da18/playlist.m3u8",
+  	height: 540,
+  	width: 960,
+  	androidhls: true
+  });
+</script>
+
+
+Audio only can be found [here](http://54.86.47.36:8000/kfest.m3u)
+
+----
+
+# Event Details
+
 KFEST will be kicking off in McArdle Theater Friday April 17th with DJ night and Saturday April 18th with Band night. Updates about the event will be posted on the [Facebook event](https://www.facebook.com/events/1389379091380109/permalink/1410609099257108/) page.
 
 # Lineup
