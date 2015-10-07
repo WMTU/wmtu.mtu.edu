@@ -9,6 +9,12 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wmtu.mtu.edu" # the base hostname & protocol for your site
 twitter_username: WMTU
 github_username:  WMTU
+office_phone: 906-487-2333
+request_line: 906-487-1600
+address: > # this means to ignore newlines
+  G03W Wadsworth Hall
+  1703 Townsend Drive
+  Houghton, MI  49931
 
 # Build settings
 markdown: kramdown
