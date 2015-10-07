@@ -6,7 +6,10 @@
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>Office: {{ site.office_phone }}</li>
+          <li>Request line: {{ site.request_line }}</li>
+          <li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li style="white-space: pre-wrap">{{ site.address }}</li>
         </ul>
       </div>
 
