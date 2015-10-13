@@ -102,7 +102,17 @@ span {
 /* table styling */
 .content_table {
   border-spacing: 0px;
+  width: 60%;
 }
+
+.content_table td:first-child, th:first-child {
+  padding-left: 6em;
+}
+
+.content_table td:last-child, th:last-child {
+  padding-right: 6em;
+}
+
 
 .content_table td {
   border-bottom:1px solid rgba(0,0,0,.2);
