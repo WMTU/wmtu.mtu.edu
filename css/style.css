@@ -99,7 +99,10 @@ span {
   margin: 1.5em;
 }
 
-
+/* table styling */
+table td {
+  border-bottom:1px solid rgba(0,0,0,.2) !important;
+}
 /* contact info styling */
 #department-contacts {
   margin: 1em auto;
