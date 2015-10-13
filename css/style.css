@@ -100,11 +100,11 @@ span {
 }
 
 /* table styling */
-table {
+.content_table {
   border-spacing: 0px;
 }
 
-td {
+.content_table td {
   border-bottom:1px solid rgba(0,0,0,.2);
 }
 
