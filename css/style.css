@@ -63,6 +63,9 @@ span {
 
 #player {
   width: auto;
+  height: 150px;
+  display: inline;
+  margin-left: 30px;
   font-size: 5em;
   color: #000000;
 }
