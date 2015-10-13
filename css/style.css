@@ -51,7 +51,7 @@ span {
 
 /* logo styling */
 #top-logo {
-  width: 100%;
+  width: auto;
   height: 300px;
 }
 
