@@ -100,9 +100,14 @@ span {
 }
 
 /* table styling */
-table td {
+table {
+  border-spacing: 0px;
+}
+
+td {
   border-bottom:1px solid rgba(0,0,0,.2) !important;
 }
+
 /* contact info styling */
 #department-contacts {
   margin: 1em auto;
