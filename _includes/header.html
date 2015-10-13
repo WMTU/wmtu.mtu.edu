@@ -1,13 +1,15 @@
 <header class="site-header">
   <div class="wrapper">
-    <a href="{{ "/" | prepend: site.baseurl }}" data-pjax ><img id="top-logo" class="pulsate-bg zoom" src="{{ "/images/wmtu-logo.svg" | prepend: site.baseurl }}" alt="WMTU" /></a>
-    <div id="player">
-      <span id="play-button"><i class="fa fa-play"></i></span>
-      <span id="pause-button"><i class="fa fa-pause"></i></span>
-    </div>
-    <div id="music-info">
-        <span id="current-track"></span>
+    <div id="WMTU">
+      <a href="{{ "/" | prepend: site.baseurl }}" data-pjax ><img id="top-logo" class="pulsate-bg zoom" src="{{ "/images/wmtu-logo.svg" | prepend: site.baseurl }}" alt="WMTU" /></a>
+      <div id="player">
+        <span id="play-button"><i class="fa fa-play"></i></span>
+        <span id="pause-button"><i class="fa fa-pause"></i></span>
       </div>
+      <div id="music-info">
+          <span id="current-track"></span>
+      </div>
+    </div>
     <div class="divider"></div>
     <div id="navigation" class="flex">
       <a href="{{ "/archives/" | prepend: site.baseurl }}" target="_blank" class="btn item">Archives</a>
