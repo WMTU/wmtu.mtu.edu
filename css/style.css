@@ -48,14 +48,6 @@ span {
   display: inline-block;
 }
 
-
-/* logo styling */
-#top-logo {
-  width: auto;
-  height: 300px;
-}
-
-
 /* stream player styling */
 #stream {
   text-align: center;
@@ -69,6 +61,12 @@ span {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* logo styling */
+#top-logo {
+  width: auto;
+  max-height: 300px;
 }
 
 #logo {
