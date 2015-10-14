@@ -86,7 +86,7 @@ span {
   }
 }
 
-@media all (min-width: 50px) and (max-width: 575px) {
+@media all and (min-width: 50px) and (max-width: 575px) {
   #player {
     font-size: 15vw;
     order: 2;
