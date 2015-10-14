@@ -76,7 +76,7 @@ span {
   order: 1;
 }
 
-@media all and (min-width: 576px) {
+@media all and (min-width: 476px) {
   #player {
     font-size: 4.5em;
     order: 2;
@@ -89,7 +89,7 @@ span {
   }
 }
 
-@media all and (min-width: 50px) and (max-width: 575px) {
+@media all and (min-width: 50px) and (max-width: 475px) {
   #player {
     font-size: 15vw;
     order: 2;
