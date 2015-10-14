@@ -123,15 +123,17 @@ span {
 
 /* table styling */
 .content_table {
+  width: 60%;
+  font-size: 1.3vw;
   border-spacing: 0px;
 }
 
 .content_table td:first-child, th:first-child {
-  padding-left: 6em;
+  padding-left: 6vw;
 }
 
 .content_table td:last-child, th:last-child {
-  padding-right: 6em;
+  padding-right: 6vw;
 }
 
 
