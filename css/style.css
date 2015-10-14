@@ -122,8 +122,20 @@ span {
 }
 
 /* table styling */
-.content_table {
-  border-spacing: 0px;
+@media all and (min-width: 870px) {
+  .content_table {
+    font-size: 1em;
+    white-space: nowrap;
+    border-spacing: 0px;
+  }
+}
+
+@media all and (min-width: 50px) and (max-width: 869px) {
+  .content_table {
+    font-size: 2.3vw;
+    white-space: nowrap;
+    border-spacing: 0px;
+  }
 }
 
 .content_table td:first-child, th:first-child {
