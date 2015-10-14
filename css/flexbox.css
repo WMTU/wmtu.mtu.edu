@@ -1,27 +1,57 @@
-.flex {
-  font-size: 2.3vw;
-  white-space: nowrap;
+@media all and (min-width: 870px) {
+  .flex {
+    font-size: 1em;
+    white-space: nowrap;
+    
+    display: -webkit-flex;
+    display: flex;
   
-  display: -webkit-flex;
-  display: flex;
+    flex-flow: row;
+    -webkit-flex-flow: row;
+  
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+  
+    align-items: center;
+    -webkit-align-items: center;
+  
+    align-content: space-around;
+    -webkit-align-content: space-around;
+  
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+  
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
+}
 
-  flex-flow: row;
-  -webkit-flex-flow: row;
-
-  justify-content: space-around;
-  -webkit-justify-content: space-around;
-
-  align-items: center;
-  -webkit-align-items: center;
-
-  align-content: space-around;
-  -webkit-align-content: space-around;
-
-  flex-flow: row wrap;
-  -webkit-flex-flow: row wrap;
-
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
+@media all and (min-width: 50px) and (max-width: 869px) {
+  .flex {
+    font-size: 2.3vw;
+    white-space: nowrap;
+    
+    display: -webkit-flex;
+    display: flex;
+  
+    flex-flow: row;
+    -webkit-flex-flow: row;
+  
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+  
+    align-items: center;
+    -webkit-align-items: center;
+  
+    align-content: space-around;
+    -webkit-align-content: space-around;
+  
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+  
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
 }
 
 .flex .spacer {
