@@ -14,13 +14,6 @@
   <a href="#" class="btn">Default button</a>
 
 */
-#btn_left, #btn_right {
-  width: 33%;
-}
-
-#btn_middle {
-  width: 34%;
-}
 
 .btn, .btn:link, .btn:visited {
   border-radius: 0.3em;
