@@ -1,4 +1,7 @@
 .flex {
+  font-size: 2.3vw;
+  white-space: nowrap;
+  
   display: -webkit-flex;
   display: flex;
 
