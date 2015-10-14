@@ -120,12 +120,6 @@ span {
   color: #000000;
 }
 
-
-/* navigation styling */
-#navigation {
-  margin: 1.5em;
-}
-
 /* table styling */
 @media all and (min-width: 870px) {
   .content_table {
