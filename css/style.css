@@ -66,22 +66,38 @@ span {
 /* logo styling */
 #top-logo {
   width: auto;
-  max-height: 300px;
+  max-height: 15em;
 }
 
 #logo {
   order: 1;
 }
 
-#player {
-  order: 2;
-  position: relative;
-  top: 1.6em;
-  vertical-align: middle;
-  display: inline-block;
-  margin-left: -0.6em;
-  font-size: 4.5em;
-  color: #000000;
+@media all and (min-width: 600px) {
+  #player {
+    font-size: 4.5em;
+    order: 2;
+    position: relative;
+    top: 1.6em;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: -0.6em;
+    color: #000;
+  }
+}
+
+@media all (min-width: 50px) and (max-width: 599px) {
+  #player {
+    font-size: 18vw;
+    order: 2;
+    position: relative;
+    top: 1.6em;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: -0.6em;
+    color: #000;
+  }
+  
 }
 
 #player span {
