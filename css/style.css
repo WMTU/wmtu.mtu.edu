@@ -78,10 +78,11 @@ span {
 
 @media all and (min-width: 476px) {
   #player {
+    padding-right: 10px;
     font-size: 4.5em;
     order: 2;
     position: relative;
-    top: 1.6em;
+    top: 1.55em;
     vertical-align: middle;
     display: inline-block;
     margin-left: -0.6em;
@@ -91,10 +92,11 @@ span {
 
 @media all and (min-width: 50px) and (max-width: 475px) {
   #player {
+    padding-right: 10px;
     font-size: 15vw;
     order: 2;
     position: relative;
-    top: 1.6em;
+    top: 1.5em;
     vertical-align: middle;
     display: inline-block;
     margin-left: -0.6em;
