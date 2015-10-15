@@ -157,7 +157,7 @@ span {
 @media all and (min-width: 600px) {
   .table {
     display: table;
-    width: 100%;
+    width: auto;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     padding-left: 15px;
@@ -171,7 +171,7 @@ span {
 @media all and (min-width: 50px) and (max-width: 599px) {
   .table {
     display: table;
-    width: 100%;
+    width: auto;
     margin-top: .25em;
     margin-bottom: .25em;
     border-spacing: .15em;
