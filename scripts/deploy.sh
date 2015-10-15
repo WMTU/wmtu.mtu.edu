@@ -10,4 +10,4 @@ fi
 
 echo 'Copying Built Site to Server'
 cd _site
-ruby scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu . /var/www/
+ruby ../scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu . /var/www/
