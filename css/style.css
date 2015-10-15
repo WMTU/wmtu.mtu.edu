@@ -69,7 +69,7 @@ span {
 /* logo styling */
 #top-logo {
   width: auto;
-  max-height: 15em;
+  max-height: 18em;
 }
 
 #logo {
@@ -83,7 +83,7 @@ span {
     font-size: 4.5em;
     order: 2;
     position: relative;
-    top: 1.55em;
+    top: 2em;
     vertical-align: middle;
     display: inline-block;
     margin-left: -0.6em;
