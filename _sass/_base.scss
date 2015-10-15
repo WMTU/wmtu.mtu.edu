@@ -21,7 +21,13 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (min-width: 601px) {
+  body {
+    font-size: 20px;
+  } 
+}
+
+@media all and (max-width: 600px) {
   body {
     font-size: 16px;
   } 
