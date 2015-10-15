@@ -9,4 +9,5 @@ if [ "$TRAVIS_BRANCH" != "$DEPLOY_BRANCH" ]; then
 fi
 
 echo 'Copying Built Site to Server'
-ruby scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu _site /var/www/
+cd _site
+ruby scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu . /var/www/
