@@ -4,6 +4,7 @@ rvm:
 sudo: false
 before_install:
 - travis_retry gem install jekyll
+- travis_retry gem install net-scp
 script: jekyll build
 deploy:
   provider: script
