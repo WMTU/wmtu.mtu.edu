@@ -67,40 +67,16 @@ span {
 }
 
 /* logo styling */
-@media all and (max-width: 1499px) {
-  #top-logo {
-    width: auto;
-    max-height: 18em;
-  }
-}
-
-@media all and (min-width: 1500px) {
-  #top-logo {
-    width: auto;
-    height: 25em;
-  }
+#top-logo {
+  width: auto;
+  max-height: 18em;
 }
 
 #logo {
   order: 1;
 }
 
-@media all and (min-width: 1500px) {
-  #player {
-    animation: pulse 2s infinite;
-    padding-right: 10px;
-    font-size: 7em;
-    order: 2;
-    position: relative;
-    top: 1.7em;
-    vertical-align: middle;
-    display: inline-block;
-    margin-left: -0.6em;
-    color: #000;
-  }
-}
-
-@media all and (min-width: 476px) and (max-width: 1499px) {
+@media all and (min-width: 476px) {
   #player {
     animation: pulse 2s infinite;
     padding-right: 10px;
