@@ -4,10 +4,12 @@ rvm:
 sudo: false
 before_install:
 - travis_retry gem install jekyll
-- travis_retry gem install net-scp
 script: jekyll build
+before_deploy:
+- travis_retry gem install net-scp
 deploy:
   provider: script
+  skip_cleanup: true
   script: scripts/deploy.sh
   on:
     branch: master
