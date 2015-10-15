@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash --login
 
 echo 'Installing Newer Ruby'
 rvm install 2.2.1
