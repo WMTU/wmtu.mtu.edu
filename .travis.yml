@@ -6,16 +6,12 @@ before_install:
 - travis_retry gem install jekyll
 - travis_retry gem install net-scp
 script: jekyll build
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: scripts/deploy.sh
-  on:
-    branch: master
+after_success: scripts/deploy.sh
 branches:
   only:
   - master
 env:
   global:
+  - DEPLOY_BRANCH=master
   - secure: fXABSMgOJL2NHm27OkVxj3Lxy7TkXnFeoaL3suvLO6Wk5lYl1aBIdYhxDDyPnETfI0mKJUH6IMTrrK328Vps8KOfR7DzL/FhhCO6aNHZYPqxWCF3Q+JIHIkbPA35b+vAZSleLlyyX9R32eKL2UMartvA6ir2UIheB+kvK+4tbF4=
   - secure: uw7m6yQg5mwz7UHbvXSWyrgD4SSaDv0PYHwX3FZkBAeWkZaArX+g35j+Jy9VEOKbEexcysZCGUNK5sgR5/g8hBBnm9Zeu5Ok1nvgjl+aGpcGpRuywG0o0ZRAqmyfmkGLxmvfFw0P8T4s1D9FOszSiQTv0VInD8111yuitnUBzeI=
