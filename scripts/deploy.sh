@@ -2,6 +2,7 @@
 
 CURRENT_BRANCH=`git rev-parse --abbrev-ref HEAD`
 echo "Checking Git Branch $DEPLOY_BRANCH"
+echo "Currently on Branch $CURRENT_BRANCH"
 
 if [ "$CURRENT_BRANCH" != "$DEPLOY_BRANCH" ]; then
   echo "Not On $DEPLOY_BRANCH, Not Deploying"
