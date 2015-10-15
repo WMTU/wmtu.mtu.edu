@@ -6,11 +6,9 @@ before_install:
 - travis_retry gem install jekyll
 - travis_retry gem install net-scp
 script: jekyll build
-before_deploy:
-  - cd _site
 deploy:
   provider: script
-  script: ruby ../scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu . /var/www/
+  script: ruby scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu _site /var/www/
   on:
     branch: master
 branches:
