@@ -7,9 +7,6 @@ before_install:
 - travis_retry gem install net-scp
 script: jekyll build
 after_success: scripts/deploy.sh
-branches:
-  only:
-  - master
 env:
   global:
   - DEPLOY_BRANCH=master
