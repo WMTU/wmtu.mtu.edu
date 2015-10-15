@@ -295,3 +295,11 @@ footer {
   position: relative;
   margin: 0 auto;
 }
+
+.newlineItem {
+  margin-top: 1em;
+}
+
+.prewrapItem {
+  white-space: pre-wrap;
+}
