@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.2.1
+- 2.2.1
 sudo: false
 before_install:
 - travis_retry gem install jekyll
@@ -8,14 +8,13 @@ before_install:
 script: jekyll build
 deploy:
   provider: script
-  script: "ruby scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu _site /var/www/"
+  script: scripts/deploy.sh
   on:
     branch: master
 branches:
   only:
   - master
-
 env:
   global:
-  - secure: U62MFwHsx+JZtUKu96d1HoODhHhv+qkoHSw8XeR61JsKm1zIUs1ljZcgQW8D+Rn60TvpkrnUdvc64VDoiXq4qly9gvBY1ntMbJJiO6IZA8cY36I73QiBYBDokNSq7NMcN67U15SLDyN7MvsuUVObvosXtGeIaC38kq93PGN96oQ=
-  - secure: SC3zeEJL4C6Ofakb8GajILGks2BWO303OCijVMt5000v0kutStvOVmD2dpNSsc0KyEa+2eoKVOV0maj7mvENscgONl+gBFy4m6cRImzum7x0hHAq1CEg7sASZgnHXuBVImu704/I2BeGYi8CDNO61spftv1HN2meupyCRiDrjQI=
+  - secure: fXABSMgOJL2NHm27OkVxj3Lxy7TkXnFeoaL3suvLO6Wk5lYl1aBIdYhxDDyPnETfI0mKJUH6IMTrrK328Vps8KOfR7DzL/FhhCO6aNHZYPqxWCF3Q+JIHIkbPA35b+vAZSleLlyyX9R32eKL2UMartvA6ir2UIheB+kvK+4tbF4=
+  - secure: uw7m6yQg5mwz7UHbvXSWyrgD4SSaDv0PYHwX3FZkBAeWkZaArX+g35j+Jy9VEOKbEexcysZCGUNK5sgR5/g8hBBnm9Zeu5Ok1nvgjl+aGpcGpRuywG0o0ZRAqmyfmkGLxmvfFw0P8T4s1D9FOszSiQTv0VInD8111yuitnUBzeI=
