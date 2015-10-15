@@ -1,8 +1,7 @@
-#!/usr/bin/env bash --login
+#!/usr/bin/env bash
 
-echo 'Installing Newer Ruby'
-rvm install 2.2.1
-rvm use --default 2.2.1
+echo 'Using Newer Ruby'
+rvm use 2.2.1
 
 echo 'Installing SCP Gem'
 gem install net-scp
