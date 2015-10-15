@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
-CURRENT_BRANCH=`git branch | grep '*' | awk '{ print($2); }'`
 echo "Checking Git Branch $DEPLOY_BRANCH"
-echo "Currently on Branch $CURRENT_BRANCH"
+echo "Currently on Branch $TRAVIS_BRANCH"
 
-if [ "$CURRENT_BRANCH" != "$DEPLOY_BRANCH" ]; then
+if [ "$TRAVIS_BRANCH" != "$DEPLOY_BRANCH" ]; then
   echo "Not On $DEPLOY_BRANCH, Not Deploying"
   exit 0;
 fi
