@@ -9,12 +9,6 @@
           <li>Office: {{ site.office_phone }}</li>
           <li>Request line: {{ site.request_line }}</li>
           <li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li style="white-space: pre-wrap">{{ site.address }}</li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
           {% if site.twitter_username %}
           <li>
             <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
@@ -30,8 +24,13 @@
           </li>
           {% endif %}
           {% if site.stream_playlist %}
-          <li>
-            Player not working? <br>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          <li class="prewrapItem">{{ site.address }}</li>
+          <li class="newlineItem">
             Stream WMTU with <a target="_blank" href="{{ site.stream_playlist }}">this</a>
           </li>
           {% endif %}
