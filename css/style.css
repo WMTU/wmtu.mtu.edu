@@ -78,6 +78,7 @@ span {
 
 @media all and (min-width: 476px) {
   #player {
+    animation: pulse 2s infinite;
     padding-right: 10px;
     font-size: 4.5em;
     order: 2;
@@ -92,6 +93,7 @@ span {
 
 @media all and (min-width: 50px) and (max-width: 475px) {
   #player {
+    animation: pulse 2s infinite;
     padding-right: 10px;
     font-size: 15vw;
     order: 2;
@@ -102,7 +104,30 @@ span {
     margin-left: -0.6em;
     color: #000;
   }
-  
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow:
+   -1px -1px 0 #00FFFF,  
+    1px -1px 0 #00FFFF,
+    -1px 1px 0 #00FFFF,
+     1px 1px 0 #00FFFF;
+  }
+  50% {
+    text-shadow:
+   -1px -1px 0 rgba(0,0,0,0),  
+    1px -1px 0 rgba(0,0,0,0),
+    -1px 1px 0 rgba(0,0,0,0),
+     1px 1px 0 rgba(0,0,0,0);
+  }
+  100% {
+    text-shadow:
+   -1px -1px 0 #00FFFF,  
+    1px -1px 0 #00FFFF,
+    -1px 1px 0 #00FFFF,
+     1px 1px 0 #00FFFF;
+  }
 }
 
 #player span {
