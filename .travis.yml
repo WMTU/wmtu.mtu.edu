@@ -8,7 +8,7 @@ before_install:
 script: jekyll build
 deploy:
   provider: script
-  script: ruby scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu _site /var/www/
+  script: "ruby scripts/scp.rb $USERNAME $PASSWORD wmtu.mtu.edu _site /var/www/"
   on:
     branch: master
 branches:
