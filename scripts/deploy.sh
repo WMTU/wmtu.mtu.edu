@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CURRENT_BRANCH=`git rev-parse --abbrev-ref HEAD`
+CURRENT_BRANCH=`git branch | grep '*' | awk '{ print($2); }'`
 echo "Checking Git Branch $DEPLOY_BRANCH"
 echo "Currently on Branch $CURRENT_BRANCH"
 
