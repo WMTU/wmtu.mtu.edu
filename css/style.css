@@ -121,6 +121,14 @@ span {
 }
 
 /* navigation */
+.table :first-child {
+  text-align: left;
+}
+
+.table :last-child {
+  text-align: right;
+}
+
 @media all and (min-width: 600px) {
   .table {
     display: table;
