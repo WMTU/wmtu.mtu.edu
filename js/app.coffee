@@ -88,6 +88,11 @@ WMTU.bindThings = ->
       $("#scrolltotop").css('visibility', 'hidden')
 
 WMTU.setup = ->
+  colors = ["rgb(68, 171, 143)", "rgb(254, 196, 0)", "rgb(108, 201, 253)", "rgb(190, 48, 64)"]
+  colorsKey = Math.floor(Math.random() * 3)
+  nthColor = colors[colorsKey]
+  $(".fade-bg").css('background', nthColor)
+
   soundManager.setup
     url: 'bower_components/soundmanager/swf/',
     preferFlash: false,
