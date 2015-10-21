@@ -266,6 +266,19 @@ span {
 
 #playlist-table{
   margin: 1em auto;
+  max-width: 80vw;
+}
+
+#playlist-table tbody {
+  display: block;
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+
+#playlist-table thead, #playlist-table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }
 
 /* footer styling */

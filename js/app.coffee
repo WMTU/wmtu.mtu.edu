@@ -14,7 +14,7 @@ WMTU.onStreamPaused = ->
 
 WMTU.handleDatePickerEvent = ->
   $('#playlist-date').blur()
-  $("#playlist-table").empty().append "<tr><th>Time</th><th>Artist</th><th>Track Name</th></tr>"
+  $("#playlist-table tbody").empty()
   pickedValue = WMTU.datePicker.get 'select', 'yyyy mm dd'
   if pickedValue != null & pickedValue != ""
     $("#playlist-table").show()
@@ -33,7 +33,7 @@ WMTU.renderPlaylist = (data)->
   data = JSON.parse(data)
   for item in data
     row = $("<tr />")
-    $("#playlist-table").append(row)
+    $("#playlist-table tbody").append(row)
     row.append($("<td>" + moment(item.ts, "YYYY-MM-DD HH:mm:ss").format("h:mm A") + "</td>"))
     row.append($("<td>" + item.artist + "</td>"))
     row.append($("<td>" + item.song_name + "</td>"))
