@@ -87,6 +87,9 @@ WMTU.bindThings = ->
     else
       $("#scrolltotop").css('visibility', 'hidden')
 
+  $("#chart-artists").tabs()
+  $("#chart-albums").tabs()
+
 WMTU.setup = ->
   colors = ["rgb(68, 171, 143)", "rgb(254, 196, 0)", "rgb(108, 201, 253)", "rgb(190, 48, 64)"]
   colorsKey = Math.floor(Math.random() * 3)
