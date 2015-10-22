@@ -17,13 +17,13 @@
       <div class="table_cell">
       <a href="{{ "/archives/" | prepend: site.baseurl }}" target="_blank" class="btn item">Archives</a>
       </div>
-      <div class="table_cell">
       {% for page in site.pages %}
         {% if page.title %}
-          <a class="btn item" data-pjax href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <div class="table_cell">
+            <a class="btn item" data-pjax href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </div>
         {% endif %}
       {% endfor %}
-      </div>
       <div class="table_cell">
         <a href="{{ "/forum" | prepend: site.baseurl }}" target="_blank" class="btn item" onclick="return confirm('Warning! The views expressed herein are those of the posters, and not necessarily those of WMTU, its staff, underwriters, or Michigan Technological University.')">Forum</a>
       </div>
