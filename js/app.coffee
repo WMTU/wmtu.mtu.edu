@@ -41,7 +41,7 @@ WMTU.renderPlaylist = (data)->
 
 WMTU.streamInfoUpdateLoop = ->
   $.getJSON "{{ "/php/songfeed.php" | prepend: site.baseurl }}", (data)->
-    $('#current-track').html data[0].artist + ' - ' + data[0].song_name + ' |  ' + moment(data[0].ts, "YYYY-MM-DD HH:mm:ss").fromNow()
+    $('#current-track').html data[0].song_name + ' by ' + data[0].artist + ' |  ' + moment(data[0].ts, "YYYY-MM-DD HH:mm:ss").fromNow()
 
   setTimeout WMTU.streamInfoUpdateLoop, 5000
 
