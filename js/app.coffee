@@ -61,6 +61,28 @@ WMTU.initStream = ->
   else
     WMTU.onStreamPaused()
 
+WMTU.fetchChart = (e) ->
+  target = $(e.target).attr('href')
+  tokens = target.split('-')
+  keyVal = tokens[1].slice(0,tokens[1].length-1)
+  params = {key: keyVal, days: parseInt(tokens[-1])}
+  $.post '{{ "/php/fetchChart.php" | prepend: site.baseurl }}', params, (data, target) ->
+    tbody = $(target + ' table tbody')
+    WMTU.renderPlaylist(data, keyVal, tbody)
+  , 'json'
+
+WMTU.renderChart = (data, keyVal, tbody) ->
+  i = 1
+  for item in data
+    row = $("<tr />")
+    tbody.append(row)
+    row.append($("<td>" + i + "</td>"))
+    row.append($("<td>" + item.artist + "</td>"))
+    if keyVal != 'artist'
+      row.append($("<td>" + item[keyVal] + "</td>"))
+    row.append($("<td>" + item.count + "</td>"))
+    i += 1
+
 WMTU.bindThings = ->
   $('#play-button').click ->
     if WMTU.streamObject.paused
@@ -87,8 +109,8 @@ WMTU.bindThings = ->
     else
       $("#scrolltotop").css('visibility', 'hidden')
 
-  $("#chart-artists").tabs()
-  $("#chart-albums").tabs()
+  $("a[data-toggle='tab']").on "show.bs.tab", (e) ->
+    WMTU.fetchChart(e)
 
 WMTU.setup = ->
   colors = ["rgb(68, 171, 143)", "rgb(254, 196, 0)", "rgb(108, 201, 253)", "rgb(190, 48, 64)"]

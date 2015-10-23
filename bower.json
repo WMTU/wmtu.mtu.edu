@@ -21,6 +21,7 @@
     "moment": "~2.8.3",
     "soundmanager": "*",
     "pickadate": "https://github.com/amsul/pickadate.js.git#master",
-    "jquery-pjax": "~1.9.4"
+    "jquery-pjax": "~1.9.4",
+		"bootstrap-sass": "~3.3.5"
   }
 }
