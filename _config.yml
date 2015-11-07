@@ -21,7 +21,7 @@ request_line: 906-487-1600
 twitter_username: WMTU
 facebook_username: 919wmtu
 github_username:  WMTU
-stream_url: http://54.86.47.36:8000/listen
-stream_playlist: http://54.86.47.36:8000/listen.m3u
+stream_url: http://stream.wmtu.mtu.edu:8000/wmtu-320
+stream_playlist: http://stream.wmtu.mtu.edu:8000/wmtu-320.m3u
 
 exclude: [README.md, Gemfile, Gemfile.lock, scripts, bower_components/soundmanager/demo, bower_components/jquery/src]
