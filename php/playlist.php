@@ -17,7 +17,7 @@
     $month = filter_input(INPUT_POST, 'month', FILTER_SANITIZE_NUMBER_INT);
     $year = filter_input(INPUT_POST, 'year', FILTER_SANITIZE_NUMBER_INT);
 
-    $sql = "SELECT * FROM djlogs WHERE ts BETWEEN '".$year."/".$month."/".$day."' AND '".$year."/".$month."/".strval(intval($day) + 1)."' ORDER BY id DESC";
+    $sql = "SELECT * FROM djlogs WHERE ts BETWEEN TIMESTAMP('".$year."-".$month."-".$day."') AND TIMESTAMP('".$year."-".$month."-".$day." 23:59:59') ORDER BY id DESC";
   }
 
 
