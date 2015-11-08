@@ -4,6 +4,10 @@ title: Station Documents
 permalink: /station-docs/
 ---
 
+* [Constitution](#constitution)
+* [By Laws](#by-laws)
+* [DJ Training Guide](#dj-training-guide)
+
 # Constitution
 
 ____
@@ -256,6 +260,30 @@ __Section 2.__ Senior Staff selection:
 *   Those elected to the positions of General Manager and Business Manager must also be approved by the current General Manager and the WMTU adviser(s). The person elected to the position of Broadcast Supervisor must be designated as the chief operator of WMTU by the Federal Communications Commission before taking office.
 *   Two-thirds of General Staff members must be present to constitute a quorum for the Senior Staff election.
 __Section 3.__ Air Staff members shall be selected by the Broadcast Supervisor according to the guidelines outlined in the Station Policy.
+
+____
+
+### ARTICLE III - REMOVAL OF STAFF MEMBERS
+
+__Section 1.__ The General Staff shall have the power to impeach or dismiss members of the General Staff on the grounds of malfeasance, misfeasance or nonfeasance in areas which are under the jurisdiction of the General Staff.
+
+__Section 2.__ The process of impeaching or dismissing a staff member shall be as follows:
+
+1.  The grievance(s) against a staff member shall be presented in writing at a General Staff meeting.
+
+2.  The vote for removal of the staff member under discussion shall be taken at the next General Staff meeting, provided that at least one week is allowed to elapse between the two meetings.
+
+__Section 3.__ A two-thirds majority vote of the General Staff members present shall be necessary to impeach or dismiss a staff member.
+
+__Section 4.__ Members of the General Staff (other than Senior Staff members) may be removed from office by the respective Senior Staff member. This action may be appealed at the next General Staff meeting and the person reinstated by a two-thirds majority vote of the General Staff members present.
+
+__Section 5.__ In the event of the dismissal impeachment, removal, or resignation of:
+
+1.  The General Manager, the Business Manager shall act in the capacity of the General Manager until a permanent replacement is found;
+
+2.  A Senior Staff Member, the General Manager shall distribute the duties of the vacant Senior Staff position to the remaining General Staff members as he or she sees fit or shall appoint one of the remaining General Staff members to the vacant position on an interim basis until a permanent replacement is found.
+
+__Section 6.__ Members of the Air Staff may be removed from their positions by Senior Staff for violation of Station Policy
 
 ____
 

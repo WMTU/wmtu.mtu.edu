@@ -12,3 +12,5 @@ php/config.php
 *.8650
 
 *.8726
+
+.DS_Store

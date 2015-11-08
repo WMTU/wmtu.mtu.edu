@@ -14,7 +14,7 @@ WMTU.onStreamPaused = ->
 
 WMTU.handleDatePickerEvent = ->
   $('#playlist-date').blur()
-  $("#playlist-table").empty().append "<tr><th>Time</th><th>Artist</th><th>Track Name</th></tr>"
+  $("#playlist-table tbody").empty()
   pickedValue = WMTU.datePicker.get 'select', 'yyyy mm dd'
   if pickedValue != null & pickedValue != ""
     $("#playlist-table").show()
@@ -33,7 +33,7 @@ WMTU.renderPlaylist = (data)->
   data = JSON.parse(data)
   for item in data
     row = $("<tr />")
-    $("#playlist-table").append(row)
+    $("#playlist-table tbody").append(row)
     row.append($("<td>" + moment(item.ts, "YYYY-MM-DD HH:mm:ss").format("h:mm A") + "</td>"))
     row.append($("<td>" + item.artist + "</td>"))
     row.append($("<td>" + item.song_name + "</td>"))
@@ -41,7 +41,7 @@ WMTU.renderPlaylist = (data)->
 
 WMTU.streamInfoUpdateLoop = ->
   $.getJSON "{{ "/php/songfeed.php" | prepend: site.baseurl }}", (data)->
-    $('#current-track').html data[0].artist + ' - ' + data[0].song_name + ' |  ' + moment(data[0].ts, "YYYY-MM-DD HH:mm:ss").fromNow()
+    $('#current-track').html data[0].song_name + ' by ' + data[0].artist + ' |  ' + moment(data[0].ts, "YYYY-MM-DD HH:mm:ss").fromNow()
 
   setTimeout WMTU.streamInfoUpdateLoop, 5000
 
@@ -88,6 +88,11 @@ WMTU.bindThings = ->
       $("#scrolltotop").css('visibility', 'hidden')
 
 WMTU.setup = ->
+  colors = ["rgb(68, 171, 143)", "rgb(254, 196, 0)", "rgb(108, 201, 253)", "rgb(190, 48, 64)"]
+  colorsKey = Math.floor(Math.random() * 3)
+  nthColor = colors[colorsKey]
+  $(".fade-bg").css('background', nthColor)
+
   soundManager.setup
     url: 'bower_components/soundmanager/swf/',
     preferFlash: false,
