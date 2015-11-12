@@ -53,7 +53,7 @@ __Section 2.__ Senior Staff
 1. The Senior Staff of WMTU shall consist of a General Manager, a Secretary, plus eight Department Heads, whose titles shall be as follows:
     * Business Manager (Head of Business)
     * Programming Director (Head of Programming)
-    * Public Relations Liason (Head of Marketing)
+    * Public Relations Liaison (Head of Marketing)
     * Broadcast Supervisor (Head of Broadcasting)
     * Production Supervisor (Head of Productions)
     * Chief Audio Engineer (Co-Head of Technology)
@@ -178,106 +178,148 @@ __Section 1.__ Amendments to Constitution or Bylaws
 
 ____
 
-### ARTICLE I - DUTIES OF THE STAFF
+### ARTICLE I - DUTIES OF SENIOR STAFF
 
 __Section 1.__ The duties of the General Manager shall be as follows:
 
-1.  Call and preside over General and Senior Staff meetings;
-2.  Present a bi-annual State of the Station Report to the General Staff and Advisors;
-3.  Enlist a Secretary who shall insure that the minutes of all General and Senior Staff meetings are kept and made available upon request;
-4.  Suspend, if necessary, any senior or general staff member from their duties until all issues can be addressed at the next general staff meeting;
-5.  Enlist temporary helpers as he or she sees fit.
+1. Call and preside over General and Senior Staff meetings;
+2. Present a bi-annual State of the Station Report to the General Staff and Advisors;
+3. Suspend, if necessary, any senior or general staff member from their duties until all issues can be addressed at the next general staff meeting;
+4. Enlist temporary helpers as he or she sees fit.
 
-__Section 2.__ The duties of the Head of Business (Business Manager) shall be as follows:
+__Section 2.__ The duties of the Secretary shall be as follows:
 
-1.  Preside over the Business Department;
-2.  Temporarily assume the duties of the General Manager in the event of his or her absence or dismissal;
-3.  Be responsible for keeping a true and accurate record of all business transactions;
-4.  Be responsible for billing tasks;
-5.  Prepare the Annual Budget, which is to be approved by the Senior Staff. Upon approval, copies shall be submitted to the Advisor and the Undergraduate Student Government;
-6.  Make available monthly financial statements to the advisor and the Undergraduate Student Government;
-7.  Report the status and all expenditures of the Business Department at General Staff meetings;
-8.  Enlist the following General Staff members:
+1. Ensure the minutes of all General and Senior Staff meetings are kept and made available upon request;
+2. Be responsible for the tracking the attendance of members of General Staff for the purpose of determining Active and Inactive status of members;
+3. Be responsible for email and correspondence lists for departments and staff;
+4. Be responsible for handling ID access to the office and DJ booth;
+5. Maintain the WMTU Historical Archives;
+6. Enlist temporary helpers as he or she sees fit.
 
-*   An Assistant Business Manager, who shall temporarily assume the duties of the Business Manager in the event of his or her absence;
-9.  Enlist temporary helpers as he or she sees fit.
+__Section 3.__ The duties of the Business Manager (Head of Business) shall be as follows:
 
-__Section 3.__ The duties of the Head of Programming shall be as follows:
+1. Preside over the Business Department;
+2. Temporarily assume the duties of the General Manager in the event of his or her absence or dismissal;
+3. Be responsible for keeping a true and accurate record of all business transactions;
+4. Be responsible for billing tasks;
+5. Prepare the Annual Budget, which is to be approved by the Senior Staff. Upon approval, copies shall be submitted to the Advisor and Student Activities;
+6. Make available monthly financial statements to the advisor and the Undergraduate Student Government;
+7. Report the status and all expenditures of the Business Department at General Staff meetings;
+8. Enlist the following General Staff members:
+  * An Assistant Business Manager, who shall temporarily assume the duties of the Business Manager in the event of his or her absence;
+9. Enlist temporary helpers as he or she sees fit.
 
-1.  Preside over the Programming Department;
-2.  Direct the acquisition of recorded materials;
-3.  Store, organize, and maintain all musical and non underwriting recordings, including the musical archives, and prepare lists of such recordings;
-4.  Report the status and expenditures of the Programming Department at General Staff meetings;
-5.  Determine the Station’s on-air profile, not limited to
+__Section 4.__ The duties of the Programming Director (Head of Programming) shall be as follows:
 
-*   Designing and implementing a beneficial Station format, in coordination with the Broadcast Supervisor, with the consent of General Staff;
-*   Determining Station liners and their appropriate on-air uses;
-6.  Enlist the following General Staff members:
+1. Preside over the Programming Department;
+2. Direct the acquisition of recorded materials;
+3. Store, organize, and maintain all musical and non underwriting recordings, including the musical archives (both physical and digital), and prepare lists of such recordings;
+4. Report the status and expenditures of the Programming Department at General Staff meetings;
+5. Determine the Station’s on-air profile, including but not limited to
+  * Designing and implementing a beneficial Station format, in coordination with the Broadcast Supervisor, with the consent of General Staff;
+  * Determining Station liners and their appropriate on-air uses;
+6. Enlist the following General Staff members:
+  * An Assistant Programming Director, who shall temporarily assume the duties of the Programming Director in the event of his or her absence;
+  * Music Directors who shall establish and maintain contact with music promoters in order to obtain musical recordings, and compile and publish official playlists, and are responsible for previewing new music before being added to the library;
+7. Enlist temporary helpers as he or she sees fit.
 
-*   An assistant programming director, who shall temporarily assume the duties of the Program Director in the event of his or her absence;
-*   Music Directors who shall establish and maintain contact with music promoters in order to obtain musical recordings, and compile and publish official playlists, and are responsible for previewing new music before being added to the library;
-7.  Enlist temporary helpers as he or she sees fit.
+__Section 5.__ The duties of the Chief Computer Engineer (Co-Head of Technology) shall be as follows:
 
-__Section 4.__ The duties of the Head of Technology (Chief Engineer) shall be as follows:
+1. Preside over the Technology Department alongside the Chief Audio Engineer;
+2. Promptly repair or replace any computer equipment that prevents WMTU from broadcasting, and repair or replace, within a reasonable amount of time, any other non-essential computer equipment that fails;
+3. Be responsible for keeping a true and accurate inventory of Station equipment, a maintenance log, and a record of service interruption;
+4. Detail and document all major equipment changes that are made on Station property and all new computer equipment;
+5. Provide for the continual operation of transmitting equipment (alongside the Chief Audio Engineer) by
+  * Making a visual inspection all relevant transmitting equipment at least once per semester;
+  * Remaining informed of any work done on or in the vicinity of the transmitting equipment;
+6. Enlist the following General Staff members:
+  * An Assistant Computer Engineer, who shall temporarily assume the duties of the Chief Computer Engineer in the event of his or her absence;
+  * A Webmaster to design and maintain the WMTU Homepage;
+7. Be responsible for all WMTU computer needs;
+8. Be responsible for the upkeep and maintenance of all WMTU computer equipment;
+9. Report status and all expenditures of the Technology Department at General Staff meetings (alongside the Chief Audio Engineer);
+10. Enlist temporary helpers as he or she sees fit.
 
-1.  Preside over the Technology Department;
-2.  Promptly repair or replace any equipment that prevents WMTU from broadcasting, and repair or replace, within a reasonable amount of time, any other non-essential equipment that fails;
-3.  Be responsible for keeping a true and accurate inventory of Station equipment, a maintenance log, and a record of service interruption;
-4.  Detail and document all major equipment changes that are made on Station property and all new equipment;
-5.  Provide for the continual operation of transmitting equipment by
+__Section 6.__ The duties of the Chief Audio Engineer (Co-Head of Technology) shall be as follows:
 
-*   Making a visual inspection all relevant transmitting equipment at least once per semester;
-*   Remain informed of any work done on or in the vicinity of the transmitting equipment;
-6.  Enlist the following General Staff members:
+1. Preside over the Technology Department alongside the Chief Computer Engineer;
+2. Promptly repair or replace any audio equipment that prevents WMTU from broadcasting, and repair or replace, within a reasonable amount of time, any other non-essential audio equipment that fails;
+3. Be responsible for keeping a true and accurate inventory of Station equipment, a maintenance log, and a record of service interruption;
+4. Detail and document all major equipment changes that are made on Station property and all new audio equipment;
+5. Provide for the continual operation of transmitting equipment (alongside the Chief Computer Engineer) by
+  * Making a visual inspection all relevant transmitting equipment at least once per semester;
+  * Remaining informed of any work done on or in the vicinity of the transmitting equipment;
+6. Enlist the following General Staff members:
+  * An Assistant Audio Engineer, who shall temporarily assume the duties of the Chief Audio Engineer in the event of his or her absence;
+  * A Talk Show Engineer, who shall manage the Air Staff during a talk show;
+7. Be responsible for all WMTU audio equipment needs;
+8. Be responsible for the upkeep and maintenance of all WMTU audio equipment;
+9. Be responsible for the general upkeep of the Engineering Closet and the equipment therein;
+10. Be designated Chief Engineer of WMTU in accordance with Federal Communication Commission regulations and requirements;
+11. Report status and all expenditures of the Technology Department at General Staff meetings (alongside the Chief Computer Engineer);
+12. Enlist temporary helpers as he or she sees fit.
 
-*   A Webmaster to design and maintain the WMTU Homepage;
-*   A Maintenance Engineer, who shall be responsible for the upkeep of the broadcast booth and keeping WMTU on air;
-7.  Be responsible for all WMTU computer needs;
-8.  Be responsible for the upkeep and maintenance of all WMTU computer equipment;
-9.  Report status and all expenditures of the Technology Department at General Staff meetings;
-10.  Enlist temporary helpers as he or she sees fit.
+__Section 7.__ The duties of the Public Relations Liaison (Head of Marketing) shall be as follows:
 
-__Section 5.__ The duties of the Head of Marketing shall be as follows:
+1. Preside over the Marketing Department
+2. Be responsible for the publicity of WMTU and all Station sponsored events, including display cases located in Wadsworth Hall and the Memorial Union Building;
+3. Be responsible for surveys of the radio audience;
+4. Utilize and maintain Station presence in social media;
+5. Report the status and all expenditures of the Marketing Department at General Staff meetings;
+6. Be responsible for promoting the Station's general image within the community;
+7. Enlist the following General Staff members:
+  * An Assistant Public Relations Liaison, who shall temporarily assume the duties of the Public Relations Liaison in the event of his or her absence;
+  * A Productions Liaison, who shall be responsible for attending meetings of the Productions Department and coordinating with them to create liners and underwriting advertisements;
+  * A Social Marketing Head, who shall be responsible for maintaining the station’s social media presence;
+8.  Enlist temporary helpers as he or she sees fit.
 
-1.  Preside over the Marketing Department
-2.  Be responsible for the publicity of WMTU and all Station sponsored events, including display cases located in Wadsworth Hall and the Memorial Union Building;
-3.  Be responsible for surveys of the radio audience;
-4.  Utilize and maintain Station presence in social media;
-5.  Maintain the WMTU historical archives;
-6.  Report the status and all expenditures of the Marketing Department at General Staff meetings;
-7.  Be responsible for promoting the Station's general image within the community;
-8.  Enlist the following General Staff members:
+__Section 8.__ The duties of the Broadcast Supervisor (Head of Broadcasting) shall be as follows
 
-*   An Assistant Marketing Director, who shall temporarily assume the duties of the Head of Marketing in the event of his or her absence;
-*   A Historian, who shall be responsible for maintaining the historical archives and communicating with Alumni;
-9.  Enlist temporary helpers as he or she sees fit.
-
-__Section 6.__ The duties of the Broadcast Supervisor shall be as follows
-
-1.  Preside over the Broadcast Department;
-2.  Serve as a liaison between the Air Staff and the General Staff;
-3.  Be responsible for training and assisting members of the Air Staff and monitoring their on-air performance;
-4.  Maintain a list of possible substitute show hosts;
-5.  Be designated chief operator of WMTU in accordance with Federal Communication Commission regulations and requirements;
-6.  Report the status and expenditures of the Broadcast Department at General Staff meetings;
-7.  Enlist the following General Staff members:
-
-*   A Traffic Coordinator, who shall be responsible for creating, compiling, distributing, monitoring, and storing the stations program and play logs and maintaining the Public Record as prescribed by the Federal Communications Commission;
-*   An Assistant Broadcast Supervisor, who shall temporarily assume the duties of the Broadcast Supervisor in the event of his or her absence;
+1. Preside over the Broadcast Department;
+2. Serve as a liaison between the Air Staff and the General Staff;
+3. Be responsible for training and assisting members of the Air Staff and monitoring their on-air performance;
+4. Monitor general on-air quality;
+5. Maintain a list of possible substitute show hosts;
+6. Be designated Chief Operator of WMTU in accordance with Federal Communication Commission regulations and requirements;
+7. Be responsible for the general upkeep of the DJ Booth and the equipment therein;
+8. Report the status and expenditures of the Broadcast Department at General Staff meetings;
+9. Enlist the following General Staff members:
+  * A Trafficking Coordinator, who shall be responsible for creating, compiling, distributing, monitoring, and storing the stations program and play logs and maintaining the Public Record as prescribed by the Federal Communications Commission;
+  * An Assistant Broadcast Supervisor, who shall temporarily assume the duties of the Broadcast Supervisor in the event of his or her absence;
 8.  Be responsible for enforcing WMTU Station Policy, taking appropriate disciplinary measures as necessary;
 9.  Be responsible for show host scheduling at the beginning of each term;
 10.  Enlist temporary helpers as he or she sees fit.
 
-__Section 7.__ The duties of the Head of Productions shall be as follows:
+__Section 9.__ The duties of the Productions Director (Head of Productions) shall be as follows:
 
-1.  Preside over the Productions Department;
-2.  Be responsible for all WMTU recording needs;
-3.  Report the status and all expenditures of the Productions Department at General Staff meetings;
-4.  Be responsible for the general upkeep of the Productions room and the equipment therein;
-5.  Maintain the archives of Productions recorded materials;
-6.  Enlist temporary helpers as he or she sees fit.
+1. Preside over the Productions Department;
+2. Be responsible for all WMTU recording needs;
+3. Report the status and all expenditures of the Productions Department at General Staff meetings;
+4. Be responsible for the general upkeep of the Productions booth and the equipment therein, and report any equipment malfunctions to the Chief Audio Engineer or Chief Computer Engineer for logging and repair;
+5. Maintain the archives of Productions recorded materials;
+6. Be responsible for the prompt turnaround of underwriting requests;
+7. Enlist the following General Staff members:
+  * An Assistant Productions Director, who shall temporarily assume the duties of the Productions Director in the event of his or her absence;
+8. Enlist temporary helpers as he or she sees fit.
 
-__Section 8.__ All General Staff members shall keep a school term-by-term written account of their activities.
+__Section 10.__ The duties of the Event Coordinator (Head of the Events Committee) shall be as follows:
+
+1. Preside over the Events Committee;
+2. Be responsible for the management of WMTU sponsored events;
+3. Serve as a liaison between WMTU, and all involved MTU faculty, staff, departments, organizations, and venue managers.
+4. Report the status of all events handled by the Events Committee at General and Senior Staff meetings;
+5. Report all expenditures related to the Events Budget;
+6. Enlist General Staff delegates to work with all involved WMTU departments for each event (when necessary):
+  * Events Business Liaison
+  * Events Marketing Liaison
+  * Events Broadcasting Liaison
+  * Events Technology Liaison(s)
+7. Enlist the following General Staff Members:
+  * An Assistant Event Coordinator(s), who shall temporarily assume the duties of the Event Coordinator in the event of his or her absence, and assist in management of all enlisted delegates described above;
+  * An Event Set-up Manager, who shall manage the planning alongside the Event Coordinator (if not the Event Coordinator him/herself), set-up, and strike of events as well as the respective crew(s);
+  * An Event Run Manager, who shall manage the event alongside the Event Coordinator (if not the Event Coordinator him/herself) and Assistant Event Coordinator(s), as well as the respective crew;
+8. Enlist temporary helpers as he or she sees fit.
+
 
 ____
 
@@ -316,13 +358,7 @@ __Section 3.__ A two-thirds majority vote of the General Staff members present s
 
 __Section 4.__ Members of the General Staff (other than Senior Staff members) may be removed from office by the respective Senior Staff member. This action may be appealed at the next General Staff meeting and the person reinstated by a two-thirds majority vote of the General Staff members present.
 
-__Section 5.__ In the event of the dismissal impeachment, removal, or resignation of:
-
-1.  The General Manager, the Business Manager shall act in the capacity of the General Manager until a permanent replacement is found;
-
-2.  A Senior Staff Member, the General Manager shall distribute the duties of the vacant Senior Staff position to the remaining General Staff members as he or she sees fit or shall appoint one of the remaining General Staff members to the vacant position on an interim basis until a permanent replacement is found.
-
-__Section 6.__ Members of the Air Staff may be removed from their positions by Senior Staff for violation of Station Policy
+__Section 5.__ Members of the Air Staff may be removed from their positions by Senior Staff for violation of Station Policy
 
 ____
 
@@ -339,14 +375,19 @@ ____
 
 ### ARTICLE V - AUTOMATION USE AND PROCEDURE
 
-__Section 1.__ Automation is defined as the sound delivery system established when no live show host is attainable.
+__Section 1.__ Automation Definition
 
-__Section 2.__ Automation is only to be used as a supplement in order to maintain a continuous broadcast, when all regular broadcasting sources are unavailable.
+1. Automation is defined as the sound delivery system established when no live show host is available or scheduled.
 
-__Section 3.__ The automation system is only to be activated by the Broadcast Supervisor with the approval of the General Manager or the Head of Technology if the General Manager is unavailable. The Broadcast Supervisor is subject the loss of his or her position upon violation.
+__Section 2.__ Automation Purpose
 
-1.  If the Broadcast Supervisor is not available, he or she should delegate the responsibility to an available senior staff member.
-2.  Activating the automation system requires verification and will be logged accordingly.
+1. Automation is to be used as a supplement in order to maintain a continuous broadcast, when all regular broadcasting sources are unavailable.
+
+__Section 3.__ Automation Usage
+
+1. The rules of automation usage are as follows:
+  1. Automation may be activated by the air staff with approval of the Broadcast Supervisor or his/her assistant(s).
+  2. If no member of the the Broadcasting Department can be contacted, the General Manager may grant approval.
 
 __Section 4.__ Playlists for automation must be approved by the Programming Director.
 
