@@ -40,10 +40,12 @@ __Section 1.__ General Staff
 
 1. Members of the General Staff of WMTU must be students or employees at Michigan Technological University.
 2. Members of General staff are considered either Active or Inactive.
+
   a. The rules of Active Staff Membership are as follows:
     1. A person is eligible to be appointed to Active General Staff after he or she has attended 3 General Staff meetings or has been present through the entirety of one senior staff election.
     2. Active Staff members shall have one vote at General Staff meetings.
     3. Any active member who fails to attend three consecutive General Staff meetings without giving prior notice to the secretary (WMTU Const. art. §4.1.2) or appointed attendance keeper shall be considered Inactive Staff.
+
   b. The rules of Inactive Staff Membership are as follows:
     1. An Inactive Staff member retains all rights of, and must abide by all rules which apply to active general staff members except the ability to vote in general staff meetings.
     2. Attendance of three consecutive General Staff meetings by an inactive staff member is required to return to Active Staff, and active membership is re-established at the beginning of the third consecutive attended meeting.
