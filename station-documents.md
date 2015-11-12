@@ -30,6 +30,7 @@ The purpose of WMTU shall be:
 
 1. To provide Michigan Technological University and the surrounding community with alternative high quality radio programming.
 2. To provide the students of Michigan Technological University with an opportunity to participate in the operation of a radio station.
+3. To organize and facilitate events which might provide the student body and local community with concerts, shows, fundraisers, and other opportunities of social significance.
 
 ____
 
@@ -38,70 +39,89 @@ ____
 __Section 1.__ General Staff
 
 1. Members of the General Staff of WMTU must be students or employees at Michigan Technological University.
-2. Each member of General Staff shall have one vote at General Staff meetings.
-3. A person is eligible to be appointed to General Staff after he or she has attended 3 General Staff meetings or has been present through the entirety of one senior staff election.
+2. Members of General staff are considered either Active or Inactive.
+  a. The rules of Active Staff Membership are as follows:
+    1. A person is eligible to be appointed to Active General Staff after he or she has attended 3 General Staff meetings or has been present through the entirety of one senior staff election.
+    2. Active Staff members shall have one vote at General Staff meetings.
+    3. Any active member who fails to attend three consecutive General Staff meetings without giving prior notice to the secretary (WMTU Const. art. §4.1.2) or appointed attendance keeper shall be considered Inactive Staff.
+  b. The rules of Inactive Staff Membership are as follows:
+    1. An Inactive Staff member retains all rights of, and must abide by all rules which apply to active general staff members except the ability to vote in general staff meetings.
+    2. Attendance of three consecutive General Staff meetings by an inactive staff member is required to return to Active Staff, and active membership is re-established at the beginning of the third consecutive attended meeting.
 
-__Section 1.1.__ Active Staff
+__Section 2.__ Senior Staff
 
-1. Each Member of active staff shall have one vote at General Staff meetings.
-2. A member shall be considered active at the time that they are voted onto staff.
-3. All General Staff Members will be considered active staff unless moved to the Inactive list as stated in WMTU Const. art. §3.1.1-2.1.
+1. The Senior Staff of WMTU shall consist of a General Manager, a Secretary, plus eight Department Heads, whose titles shall be as follows:
+    * Business Manager (Head of Business)
+    * Programming Director (Head of Programming)
+    * Public Relations Liason (Head of Marketing)
+    * Broadcast Supervisor (Head of Broadcasting)
+    * Production Supervisor (Head of Productions)
+    * Chief Audio Engineer (Co-Head of Technology)
+    * Chief Computer Engineer (Co-Head of Technology)
+    * Event Coordinator (Head of the Events Committee)
 
-__Section 1.2.__ Inactive Staff
+2. The responsibilities of the Senior Staff shall be as follows:
+  a. The Senior Staff shall serve as the Executive Committee of WMTU. Their duties are described in Article I of the Bylaws.
+  b. Members of the Senior Staff must be full-time students or an employee at Michigan Technological University and students must have cumulative grade point averages of at least 2.0 at the time of election. Only one employee shall be on senior staff at any given time. Only a student may be elected General Manager.
+  c. Each member of the Senior Staff shall have one vote at General Staff meetings and one vote at Senior Staff meetings, with the exception of the General Manager, who shall only vote in the event of a tie.
+  d. Senior Staff members shall be elected each year.
+  e. As vacancies occur within Senior Staff the General Manager shall appoint a member of General Staff to the position. In the event that the General Manager position becomes vacant, Senior Staff shall nominate a member of General Staff to complete the term of the General Manager. A majority vote of General Staff is required to approve the appointment of any member of Senior Staff.
+  f. An individual may spend a total of no more than two years in any given Senior Staff position.
+  g. The Senior Staff shall be considered a part of the General Staff.
 
-Any active member who fails to attend three General Staff meetings without giving prior notice to the secretary (WMTU Const. art. §4.1.2) shall be considered Inactive Staff. 
+__Section 3.__ Enlisted Staff
 
-1. A staff member who is considered Inactive retains all rights of, and must abide by all rules which apply to active general staff members except the ability to vote in general staff meetings.
-2. Attendance of three consecutive General Staff meetings by an inactive staff member is required to return to Active Staff, and active membership is re-established at the beginning of the third attended meeting.
+1. The Enlisted Staff of WMTU shall consist of an assistant to each department head, along with specialty roles assigned by the Senior Staff including, but not limited to, the following:
+  * Music Director(s)
+  * Webmaster
+  * Talk Show Engineer(s)
+  * Productions Liaison
+  * Social Marketing Head
+  * Event Department Liaisons
+2. The responsibilities of the Enlisted Staff are as follows:
+  a. The Enlisted Staff shall serve as delegates of their respective department heads. Their duties are outlined in Article I of the Bylaws, but may be given specific directives from their respective department heads.
+  b. An individual must be considered an Active General Staff member to be appointed as an Enlisted Staff member.
+  c. The Enlisted Staff shall be appointed each semester, and as necessary.
+  d. The Enlisted Staff shall be considered a part of the General Staff.
+3. In the event an Enlisted Staff member cannot or does not fulfill their duty as their role dictates, their dismissal is subject to the discretion of their respective department head.
 
-__Section 2.__ The Senior Staff of WMTU shall consist of a General Manager, plus six Department Heads, whose titles shall be as follows:
-
-1. Head of Business (Business Manager)
-2. Head of Programming
-3. Head of Marketing
-4. Broadcast Supervisor
-5. Head of Productions
-6. Head of Technology (Chief Engineer)
-
-The responsibilities of the Senior Staff shall be as follows:
-
-1. The Senior Staff shall serve as the Executive Committee of WMTU. Their duties are described in Article I of the Bylaws.
-2. Members of the Senior Staff must be full-time students or an employee at Michigan Technological University and students must have cumulative grade point averages of at least 2.0 at the time of election. Only one employee shall be on senior staff at any given time. Only a student may be elected General Manager.
-3. Each member of the Senior Staff shall have one vote at General Staff meetings and one vote at Senior Staff meetings.
-4. Senior Staff members shall be elected each year, with the exception of the General Manager.
-5. As vacancies occur within Senior Staff the General Manager shall appoint a member of General Staff to the position. A majority vote is by General Staff is required to approve the appointment.
-6. An individual may spend a total of no more than two years in any given Senior Staff position.
-7. The Senior Staff shall be considered a part of the General Staff.
-
-__Section 3.__ Air Staff
+__Section 4.__ Air Staff
 
 1. The Air Staff of WMTU shall be made up of its show hosts
 2. Members of the Air Staff must be students or employees of Michigan Technological University or have written permission by the General Manager, Business Manager, and Broadcast Supervisor.
 3. Members of the Air Staff shall not have the power to vote at either General or Senior Staff meetings.
-4. Air Staff members shall be appointed or reappointed at the start of each academic semester.
+4. Air Staff members shall be appointed or reappointed at the start of each academic semester by the Broadcast Supervisor.
 
-__Section 4.__ Advisors for WMTU shall be chosen by the General Staff. The Advisors shall not have the power to vote at either General or Senior Staff meetings. The WMTU advisors shall be required to attend 50% of all Senior Staff meetings. Senior Staff will be responsible for enforcing this policy.
+__Section 5.__ Advisors for WMTU
 
-__Section 5.__ WMTU shall not discriminate on the basis of race, religion, color, national origin, age, sex, sexual orientation, gender identity, height, weight, genetic information, or marital status.
+1. Advisors for WMTU shall be chosen by the General Staff. The Advisors shall not have the power to vote at either General or Senior Staff meetings.
+2. The WMTU advisors shall be required to attend 50% of all Senior Staff meetings. Senior Staff will be responsible for enforcing this policy.
+
+__Section 6.__ Equal Opportunity Policy
+
+1. WMTU shall not discriminate on the basis of race, religion, color, national origin, age, sex, sexual orientation, gender identity, height, weight, genetic information, or marital status.
 
 ### ARTICLE IV - MEETINGS
 
 __Section 1.__ General Staff meetings
 
-1.  General Staff meetings shall be called by the General Manager at least once per week during the academic year, excluding term breaks, and at other times deemed necessary.
-2.  Unless excused beforehand by the General Manager or his or her designate, attendance of General Staff meetings is mandatory for all Senior Staff members and General Staff members within the organization. In the event attendance to a General Staff meeting by a General Staff member is not possible, prior notice MUST be given to the Secretary (or attendance record keeper as designated by the General Manager).
-3.  The purpose of General Staff meetings shall be to review budget expenditures, approve expenditures outside of the budget, approve amendments to the Constitution and Bylaws, elect Senior Staff members, appoint General Staff members, approve General Staff appointments, take action concerning the removal or reinstatement of Staff members, and make other decisions concerning the smooth operation of the Station.
-4.  A majority of General Staff members must be present to constitute a quorum at a General Staff meeting.
-5.  The General Manager shall only vote at General Staff meetings in the event of a tie.
-6.  Unless otherwise stated, a majority vote of all General Staff members present shall be required to pass a motion.
+1. General Staff meetings shall be called by the General Manager at least once per week during the academic year, excluding term breaks, and at other times deemed necessary.
+2. Unless excused beforehand by the General Manager or his or her designate, attendance of General Staff meetings is mandatory for all Senior Staff members, Enlisted Staff members, and General Staff members within the organization. In the event attendance to a General Staff meeting by a staff member is not possible, prior notice MUST be given to the Secretary (or attendance record keeper as designated by the General Manager).
+3. The purpose of General Staff meetings shall be to review budget expenditures, approve expenditures outside of the budget, approve amendments to the Constitution and Bylaws, elect Senior Staff members, appoint General Staff members, approve General Staff appointments, take action concerning the removal or reinstatement of Staff members, and make other decisions concerning the smooth operation of the Station.
+4. A majority of Active General Staff members must be present to constitute a quorum at a General Staff meeting.
+5. The General Manager shall only vote at General Staff meetings in the event of a tie.
+6. Unless otherwise stated, a majority vote of all General Staff members present shall be required to pass a motion.
 
 __Section 2.__ Senior Staff meetings
 
-1.  Senior Staff meetings shall be called by the General Manager at least once per week during the academic year, excluding breaks, and at other times deemed necessary.
-2.  Unless excused beforehand by the General Manager or his/her designate, attendance is mandatory for all Senior Staff members at Senior Staff meetings. Repeat offences may result in the review, and possible suspension, of a Senior Staff member’s position.
-3.  The purpose of Senior Staff meetings shall be to maintain communications and co- ordinate efforts amongst departments, provide recommendations to General Staff, approve the Station Budget, approve expenditures within the limits of the Budget, discuss and draft amendments to the constitution and by-laws, and engage in all activities that are required to facilitate the operation of the station.
-4.  A two-thirds majority of the Senior Staff members or their designates must be present to constitute a quorum.
-5.  Unless otherwise stated, a majority vote of the Senior Staff members or their designates present shall be required to pass a motion.
+1. Senior Staff meetings shall be called by the General Manager at least once per week during the academic year, excluding breaks, and at other times deemed necessary.
+2. Senior Staff meeting absences shall be handled as follows:
+  a. Unless excused beforehand by the General Manager or his/her designate, or there is a known academic conflict, attendance is mandatory for all Senior Staff members and Enlisted Staff members at Senior Staff meetings. 
+  b. In the event a member of Senior Staff is absent from a Senior Staff meeting, a representative must be appointed from his/her department to provide updates and take notes.
+  c. Repeat offences may result in the review, and possible suspension, of a Senior Staff member’s position. 
+3. The purpose of Senior Staff meetings shall be to maintain communications and co- ordinate efforts amongst departments, provide recommendations to General Staff, approve the Station Budget, approve expenditures within the limits of the Budget, discuss and draft amendments to the constitution and by-laws, and engage in all activities that are required to facilitate the operation of the station.
+4. A two-thirds majority of the Senior Staff members or their designates must be present to constitute a quorum.
+5. Unless otherwise stated, a majority vote of the Senior Staff members or their designates present shall be required to pass a motion.
 
 __Section 3.__ Department meetings
 
@@ -110,30 +130,49 @@ __Section 3.__ Department meetings
 
 ### ARTICLE V - FINANCES
 
-__Section 1.__ WMTU shall derive its financial support through funding from the Student Activities Fee, underwriting, the sponsoring of fund raising activities, and other legal means.
+__Section 1.__ Derivation of Funds
 
-__Section 2.__ Station funds shall be held by Michigan Technological University in a student group account.
+1. WMTU shall derive its financial support through:
+  * Funding from the Student Activities Fee (SAF);
+  * Underwriting;
+  * Sponsoring fundraising activities;
+  * Other legal means.
 
-__Section 3.__ Within the first four weeks of each spring semester, an annual Station Budget shall be drafted by the Business Manager and the business department with input from Senior Staff.
+__Section 2.__ Asset Holding
 
-1.  The Budget shall outline spending for the next academic year.
-2.  The preliminary Budget shall be presented to Senior Staff and Senior Staff Appointees during the sixth week of the Spring Semester. Senior Staff and Senior Staff Appointees shall review and suggest revisions to the Budget.
-3.  The final Budget must be approved by the Senior Staff prior to the eighth week of the spring semester.
-4.  The final Budget shall be submitted to Student Activities for approval.
+1. Station funds shall be held by Michigan Technological University in a student organization account.
 
-__Section 4.__ Senior Staff may allocate funds within the limits of the Budget, or up to $100 outside of the budget. The General Staff shall be apprised of any expense approved by Senior Staff at the following General Staff meeting.
+__Section 3.__ Station Budget
 
-__Section 5.__ Purchases under $500 shall be made using the purchasing card assigned to WMTU by MTU purchasing department. Purchases made with the Purchasing card shall be made in accordance with University regulations.
+1. Within the first four weeks of each spring semester, an annual Station Budget shall be drafted by the Business Manager and the business department with input from Senior Staff.
+  a. The Budget shall outline spending for the next academic year.
+  b. The preliminary Budget shall be presented to Senior Staff and Senior Staff Appointees during the sixth week of the Spring Semester. Senior Staff and Senior Staff Appointees shall review and suggest revisions to the Budget.
+  c. The final Budget must be approved by the Senior Staff prior to the eighth week of the spring semester.
+  d. The final Budget shall be submitted to Student Activities for approval.
 
-__Section 6.__ Purchases over $500 shall be made using a Michigan Tech Purchase order.
+__Section 4.__ Allocation of Funds
 
-### ARTICLE VI - RATIFICATION
+1. Senior Staff may allocate funds within the limits of the Budget.
+2. The General Staff shall be apprised of any expense approved by Senior Staff at the following General Staff meeting. Any item over $100 must be approved with a majority vote from General Staff before being purchased.
+3. The Senior Staff may allocate up to $100 outside of any item’s budget, so long as the expense stays within the limits of the rollover or maintenance amount stated in the Budget.
+4. Leftover funds from purchases in the budget shall be available for allocation to additional purchases, and become rollover if unused during the current fiscal year.
 
-This Constitution and Bylaws shall be declared adopted when approved by a two-thirds majority vote of the General Staff members at a General Staff meeting.
+__Section 5.__ Purchases
 
-### ARTICLE VII - AMENDMENTS
+1. Purchases under $5000 shall be made using the purchasing card assigned to WMTU by MTU purchasing department. Purchases made with the Purchasing card shall be made in accordance with University regulations.
+2. Purchases over $5000 shall be made using a Michigan Tech Purchase Order.
 
-Amendments to the Constitution or Bylaws may be presented in writing at any regularly scheduled General Staff meeting and be voted on no sooner than the next General Staff meeting, provided that at least one week is allowed to elapse between the two meetings. A two-thirds majority vote of the General Staff members present shall be required for the passage of an amendment.
+### ARTICLE VI - RATIFICATION & AMENDMENTS
+
+__Section 1.__ Approval of Constitution and Bylaws
+
+1. This Constitution and Bylaws shall be declared adopted when approved by a two-thirds majority vote of the Active General Staff members at a General Staff meeting, and the Director of Student Activities.
+
+__Section 1.__ Amendments to Constitution or Bylaws
+
+1. Amendments to the Constitution and Bylaws may be presented in writing at any regularly scheduled General Staff meeting and be voted on no sooner than the next General Staff meeting, provided that at least one week is allowed to elapse between the two meetings.
+2. A two-thirds majority vote of the Active General Staff members present shall be required for the passage of an amendment.
+3. Any amendments to the Constitution and Bylaws shall become effective upon receiving approval from the Director of Student Activities.
 
 # By Laws
 
