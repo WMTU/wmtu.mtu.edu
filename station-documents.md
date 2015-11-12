@@ -327,19 +327,20 @@ ____
 
 __Section 1.__ Annual membership elections shall be held the sixth week of each spring semester, at which time all positions on the Senior Staff shall be made available to applicants. Senior Staff members elected at this time shall:
 
-1.  Train under the previous department head for the remainder of the semester (if new to the position);
-2.  Assume office no later than 2 weeks after the date of election;
-3.  Attend Senior Staff meetings.
-__Section 2.__ Senior Staff selection:
+1. Train under the previous department head for the remainder of the semester (if new to the position);
+2. Assume office no later than 2 weeks after the date of election;
+3. Attend Senior Staff meetings.
 
-1.  Nominations for Senior Staff elections will be open two weeks before elections take place.
-2.  Candidates shall be elected to the Senior Staff by the following method
+__Section 2.__ Senior Staff Selection
 
-*   If there is only one candidate for the position, a vote of confidence shall be taken by the General Staff. If the candidate is approved by a majority of the General Staff members present, he or she shall be elected to the Senior Staff. Otherwise, another search for candidates shall be made.
-*   If there is more than one candidate for a position, a secret ballot vote shall be taken by the General Staff. The candidate receiving over half of the votes shall be elected to the Senior Staff.
-*   If no candidate receives over half of the votes in the first election, a runoff election shall be held by the General Staff between the top two candidates from the first election. The candidate receiving the majority of the votes in the second election shall be elected to the Senior Staff.
-*   Those elected to the positions of General Manager and Business Manager must also be approved by the current General Manager and the WMTU adviser(s). The person elected to the position of Broadcast Supervisor must be designated as the chief operator of WMTU by the Federal Communications Commission before taking office.
-*   Two-thirds of General Staff members must be present to constitute a quorum for the Senior Staff election.
+1. Nominations for Senior Staff elections will be open two weeks before elections take place.
+2. Candidates shall be elected to the Senior Staff by the following method
+  * If there is only one candidate for the position, a vote of confidence shall be taken by the General Staff. If the candidate is approved by a majority of the General Staff members present, he or she shall be elected to the Senior Staff. Otherwise, another search for candidates shall be made.
+  * If there is more than one candidate for a position, a secret ballot vote shall be taken by the General Staff. The candidate receiving over half of the votes shall be elected to the Senior Staff.
+  * If no candidate receives over half of the votes in the first election, a runoff election shall be held by the General Staff between the top two candidates from the first election. The candidate receiving the majority of the votes in the second election shall be elected to the Senior Staff.
+  * Those elected to the positions of General Manager and Business Manager must also be approved by the current General Manager and the WMTU adviser(s). The person elected to the position of Broadcast Supervisor must be designated as the chief operator of WMTU by the Federal Communications Commission before taking office.
+  * Two-thirds of General Staff members must be present to constitute a quorum for the Senior Staff election.
+
 __Section 3.__ Air Staff members shall be selected by the Broadcast Supervisor according to the guidelines outlined in the Station Policy.
 
 ____
@@ -350,9 +351,8 @@ __Section 1.__ The General Staff shall have the power to impeach or dismiss memb
 
 __Section 2.__ The process of impeaching or dismissing a staff member shall be as follows:
 
-1.  The grievance(s) against a staff member shall be presented in writing at a General Staff meeting.
-
-2.  The vote for removal of the staff member under discussion shall be taken at the next General Staff meeting, provided that at least one week is allowed to elapse between the two meetings.
+1. The grievance(s) against a staff member shall be presented in writing at a General Staff meeting.
+2. The vote for removal of the staff member under discussion shall be taken at the next General Staff meeting, provided that at least one week is allowed to elapse between the two meetings.
 
 __Section 3.__ A two-thirds majority vote of the General Staff members present shall be necessary to impeach or dismiss a staff member.
 
@@ -366,8 +366,8 @@ ____
 
 __Section 1.__ Station Policy for WMTU shall consist of:
 
-1.  A written set of guidelines by which members of the Air Staff shall be chosen;
-2.  A written set of rules by which Air Staff members must abide while broadcasting for WMTU.
+1. A written set of guidelines by which members of the Air Staff shall be chosen;
+2. A written set of rules by which Air Staff members must abide while broadcasting for WMTU.
 
 __Section 2.__ Station Policy shall be maintained and updated by the Broadcast Supervisor, subject to the approval of the Senior Staff.
 
