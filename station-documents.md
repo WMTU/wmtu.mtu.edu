@@ -63,12 +63,19 @@ __Section 2.__ Senior Staff
     * Event Coordinator (Head of the Events Committee)
 
 2. The responsibilities of the Senior Staff shall be as follows:
+
   a. The Senior Staff shall serve as the Executive Committee of WMTU. Their duties are described in Article I of the Bylaws.
+  
   b. Members of the Senior Staff must be full-time students or an employee at Michigan Technological University and students must have cumulative grade point averages of at least 2.0 at the time of election. Only one employee shall be on senior staff at any given time. Only a student may be elected General Manager.
+  
   c. Each member of the Senior Staff shall have one vote at General Staff meetings and one vote at Senior Staff meetings, with the exception of the General Manager, who shall only vote in the event of a tie.
+  
   d. Senior Staff members shall be elected each year.
+  
   e. As vacancies occur within Senior Staff the General Manager shall appoint a member of General Staff to the position. In the event that the General Manager position becomes vacant, Senior Staff shall nominate a member of General Staff to complete the term of the General Manager. A majority vote of General Staff is required to approve the appointment of any member of Senior Staff.
+  
   f. An individual may spend a total of no more than two years in any given Senior Staff position.
+  
   g. The Senior Staff shall be considered a part of the General Staff.
 
 __Section 3.__ Enlisted Staff
@@ -81,9 +88,13 @@ __Section 3.__ Enlisted Staff
   * Social Marketing Head
   * Event Department Liaisons
 2. The responsibilities of the Enlisted Staff are as follows:
+
   a. The Enlisted Staff shall serve as delegates of their respective department heads. Their duties are outlined in Article I of the Bylaws, but may be given specific directives from their respective department heads.
+  
   b. An individual must be considered an Active General Staff member to be appointed as an Enlisted Staff member.
+  
   c. The Enlisted Staff shall be appointed each semester, and as necessary.
+  
   d. The Enlisted Staff shall be considered a part of the General Staff.
 3. In the event an Enlisted Staff member cannot or does not fulfill their duty as their role dictates, their dismissal is subject to the discretion of their respective department head.
 
@@ -118,8 +129,11 @@ __Section 2.__ Senior Staff meetings
 
 1. Senior Staff meetings shall be called by the General Manager at least once per week during the academic year, excluding breaks, and at other times deemed necessary.
 2. Senior Staff meeting absences shall be handled as follows:
+
   a. Unless excused beforehand by the General Manager or his/her designate, or there is a known academic conflict, attendance is mandatory for all Senior Staff members and Enlisted Staff members at Senior Staff meetings. 
+  
   b. In the event a member of Senior Staff is absent from a Senior Staff meeting, a representative must be appointed from his/her department to provide updates and take notes.
+  
   c. Repeat offences may result in the review, and possible suspension, of a Senior Staff member’s position. 
 3. The purpose of Senior Staff meetings shall be to maintain communications and co- ordinate efforts amongst departments, provide recommendations to General Staff, approve the Station Budget, approve expenditures within the limits of the Budget, discuss and draft amendments to the constitution and by-laws, and engage in all activities that are required to facilitate the operation of the station.
 4. A two-thirds majority of the Senior Staff members or their designates must be present to constitute a quorum.
@@ -147,9 +161,13 @@ __Section 2.__ Asset Holding
 __Section 3.__ Station Budget
 
 1. Within the first four weeks of each spring semester, an annual Station Budget shall be drafted by the Business Manager and the business department with input from Senior Staff.
+
   a. The Budget shall outline spending for the next academic year.
+  
   b. The preliminary Budget shall be presented to Senior Staff and Senior Staff Appointees during the sixth week of the Spring Semester. Senior Staff and Senior Staff Appointees shall review and suggest revisions to the Budget.
+  
   c. The final Budget must be approved by the Senior Staff prior to the eighth week of the spring semester.
+  
   d. The final Budget shall be submitted to Student Activities for approval.
 
 __Section 4.__ Allocation of Funds
