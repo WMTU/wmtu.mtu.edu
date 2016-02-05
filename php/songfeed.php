@@ -11,7 +11,7 @@
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
 
-	$sql = "SELECT * FROM djlogs ORDER BY id DESC LIMIT 3";
+	$sql = "SELECT * FROM djlogs WHERE ts < DATE_SUB(NOW(), INTERVAL 30 second) ORDER BY id DESC LIMIT 3";
 
 	// Execute query
 	if ($result = mysqli_query($con,$sql))
