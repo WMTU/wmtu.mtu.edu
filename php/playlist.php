@@ -3,6 +3,7 @@
   $configs = include('config.php');
 
   $con = mysqli_connect($configs['hostname'], $configs['username'], $configs['password'], $configs['database']);
+  $con->set_charset("utf8");
 
   // Check connection
   if (mysqli_connect_errno()){
