@@ -15,14 +15,13 @@
     $day = filter_input( INPUT_POST, 'day', FILTER_SANITIZE_NUMBER_INT );
     $month = filter_input( INPUT_POST, 'month', FILTER_SANITIZE_NUMBER_INT );
     $year = filter_input( INPUT_POST, 'year', FILTER_SANITIZE_NUMBER_INT );
-    $date = sprintf( '%s/%s/%s', $month, $day, $year );
-    $day_start = strtotime( $date . ' 00:00:00' );
-    $day_end = strtotime( $date . ' 23:59:59' );
+    $day_start = sprintf( '%s-%s-%s 00:00:00', $year, $month, $day );
+    $day_end = sprintf( '%s-%s-%s 23:59:59', $year, $month, $day );
 
-    $sql = "SELECT * FROM djlogs WHERE ts BETWEEN :start AND :end ORDER BY id DESC";
+    $sql = "SELECT * FROM djlogs WHERE ts BETWEEN TIMESTAMP(:start) AND TIMESTAMP(:end) ORDER BY id DESC";
     $stmt = $con->prepare( $sql );
-    $stmt->bindValue( ':start', $day_start );
-    $stmt->bindValue( ':end', $day_end );
+    $stmt->bindParam( ':start', $day_start, PDO::PARAM_STR );
+    $stmt->bindParam( ':end', $day_end, PDO::PARAM_STR );
   }
 
   $stmt->execute();
