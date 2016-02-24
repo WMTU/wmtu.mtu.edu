@@ -15,7 +15,7 @@
     <div class="divider"></div>
     <div id="navigation" class="table">
       <div class="table_cell">
-      <a href="{{ "/archives/" | prepend: site.baseurl }}" target="_blank" class="btn item">Archives</a>
+        <a href="{{ "/archives/" | prepend: site.baseurl }}" target="_blank" class="btn item">Archives</a>
       </div>
       {% for page in site.pages %}
         {% if page.title %}
@@ -26,6 +26,9 @@
       {% endfor %}
       <div class="table_cell">
         <a href="{{ "/forum" | prepend: site.baseurl }}" target="_blank" class="btn item" onclick="return confirm('Warning! The views expressed herein are those of the posters, and not necessarily those of WMTU, its staff, underwriters, or Michigan Technological University.')">Forum</a>
+      </div>
+      <div class="table_cell">
+        <a href="{{ site.calendar }}" target="_blank" class="btn item">Schedule</a>
       </div>
     </div>
     <div class="divider"></div>
