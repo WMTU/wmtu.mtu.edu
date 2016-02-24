@@ -7,6 +7,7 @@ description: | # this block (until 'baseurl') will have its newline characters p
   © WMTU 91.9-FM Houghton | Michigan Technological University 2015
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wmtu.mtu.edu" # the base hostname & protocol for your site
+calendar: "https://calendar.google.com/calendar/embed?src=mtu.edu_st7ihirh2te644hrhj3d4vbric%40group.calendar.google.com&ctz=America/New_York"
 
 # Build settings
 markdown: kramdown
