@@ -22,6 +22,12 @@ main {
   visibility: hidden;
 }
 
+/* on air styling */
+#onair div:first-child {
+  margin: 0 auto;
+}
+
+
 /* random styles */
 .divider, hr {
   border: none;
