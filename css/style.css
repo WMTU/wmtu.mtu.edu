@@ -23,7 +23,7 @@ main {
 }
 
 /* on air styling */
-#onair div:first-child {
+#onair div:first-of-type {
   margin: 0 auto;
 }
 
