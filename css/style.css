@@ -22,10 +22,8 @@ main {
   visibility: hidden;
 }
 
-/* on air styling */
-#onair img {
-  max-width: 800px;
-  width: 100%;
+.center {
+  margin: 0 auto;
 }
 
 
