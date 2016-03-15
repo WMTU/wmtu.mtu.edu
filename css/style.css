@@ -22,11 +22,6 @@ main {
   visibility: hidden;
 }
 
-.center {
-  margin: 0 auto;
-}
-
-
 /* random styles */
 .divider, hr {
   border: none;
