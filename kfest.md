@@ -44,4 +44,8 @@ Band Night - March 26th (doors open at 4 PM)
 
 # Tickets
 
-Tickets are on sale now, and can be purchased on the [Eventbrite page](https://keweenawesomefest2016.eventbrite.com)! They will also be available at the door until 11 PM on both nights. The price for a single-night ticket is $5, and the price for a two-night ticket is $8.
+Tickets are on sale now! The price for a single-night ticket is $5, and the price for a two-night ticket is $8.
+
+<a href="http://www.eventbrite.com/e/keweenawesomefest-tickets-21563207133?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=21563207133" alt="Eventbrite - Keweenawesomefest" /></a>
+
+Tickets will also be available at the door until 11 PM on both nights. 
