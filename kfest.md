@@ -35,9 +35,9 @@ Band Night - March 26th (doors open at 4 PM)
 
 - Charlie Millard 5-5:45 PM
 - Olivia Mainville & the Aquatic Troupe 6-6:45 PM
-- Secret Grief 7-7:45 PM
-- Heligoats 8-8:45 PM
-- Flitch 9-9:45 PM
+- Flitch 7-7:45 PM
+- Secret Grief 8-8:45 PM
+- Heligoats 9-9:45 PM
 - Chris Bathgate 10-10:45 PM
 - The Go Rounds 11 PM-12 AM
 
