@@ -8,8 +8,17 @@ permalink: /kfest-2016/
 
 # Streaming
 
-For those who cannot make it to the event this year, we will be streaming live audio from the entire event both nights on this page. Check back on Friday and Saturday for more details.
+For those who cannot make it to the event this year, we will be streaming live audio from the entire event both nights on this page.
 
+<div id="live-video">Loading...</div>
+<script>
+  jwplayer.key="QOM8nBM9YblVTd5FdhWTW9bYOmkMd0CmACOrA1+gZeE=";
+  jwplayer("live-video").setup({
+    file: "http://stream.wmtu.mtu.edu:8000/kfest.m3u,
+    height: 40,
+    androidhls: true
+  });
+</script>
 Streaming will start both days at 5 PM
 
 ----
