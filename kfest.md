@@ -14,7 +14,7 @@ For those who cannot make it to the event this year, we will be streaming live a
 <script>
   jwplayer.key="QOM8nBM9YblVTd5FdhWTW9bYOmkMd0CmACOrA1+gZeE=";
   jwplayer("live-video").setup({
-    file: "http://stream.wmtu.mtu.edu:8000/kfest.m3u,
+    file: "http://stream.wmtu.mtu.edu:8000/kfest.m3u",
     height: 40,
     androidhls: true
   });
