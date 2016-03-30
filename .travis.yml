@@ -6,9 +6,7 @@ before_install:
 - nvm install 0.10
 - npm install -g bower
 - bower install
-- travis_retry gem install jekyll
-- travis_retry gem install jekyll-coffeescript
-- travis_retry gem install net-scp
+- travis_retry bundle install
 script: jekyll build
 after_success: scripts/deploy.sh
 branches:
