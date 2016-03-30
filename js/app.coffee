@@ -1,6 +1,7 @@
 ---
-# Main Javascript file
 ---
+
+# Main Javascript file
 
 WMTU = window.WMTU = {}
 WMTU.onStreamPlaying = ->
