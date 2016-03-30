@@ -7,6 +7,7 @@ before_install:
 - npm install -g bower
 - bower install
 - travis_retry gem install jekyll
+- travis_retry gem install jekyll-coffeescript
 - travis_retry gem install net-scp
 script: jekyll build
 after_success: scripts/deploy.sh
