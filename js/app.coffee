@@ -38,6 +38,8 @@ WMTU.renderPlaylist = (data)->
     row.append($("<td>" + moment(item.ts, "YYYY-MM-DD HH:mm:ss").format("h:mm A") + "</td>"))
     row.append($("<td>" + item.artist + "</td>"))
     row.append($("<td>" + item.song_name + "</td>"))
+    row.append($("<td>" + item.album + "</td>"))
+    row.append($("<td>" + item.genre + "</td>"))
 
 
 WMTU.streamInfoUpdateLoop = ->
