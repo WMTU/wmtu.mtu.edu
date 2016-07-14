@@ -20,9 +20,8 @@ WMTU.handleDatePickerEvent = ->
   if pickedValue != null & pickedValue != ""
     $("#playlist-table").show()
 
-    $.get "http://10.0.1.10/log/api/v1.0/songs",
-      {date: pickedValue, desc: true},
-      WMTU.renderPlaylist, "json"
+    $.getJSON "http://10.0.1.10/log/api/v1.0/songs",
+      {date: pickedValue, desc: true}, WMTU.renderPlaylist
   else
     $("#playlist-table").hide()
 
@@ -37,8 +36,9 @@ WMTU.renderPlaylist = (data)->
 
 
 WMTU.streamInfoUpdateLoop = ->
-  $.getJSON "{{ "/php/songfeed.php" | prepend: site.baseurl }}", (data)->
-    $('#current-track').html data[0].song_name + ' by ' + data[0].artist + ' |  ' + moment.tz(data[0].ts, "YYYY-MM-DD HH:mm:ss", "America/Detroit").add(30, 's').fromNow()
+  $.getJSON "http://10.0.1.10/log/api/v1.0/songs",
+		{n: 1, desc: true, delay: true}, (data)->
+    $('#current-track').html data["songs"][0].title + ' by ' + data["songs"][0].artist + ' |  ' + moment.tz(data["songs"][0].timestamp, "YYYY-MM-DD HH:mm:ss", "America/Detroit").add(30, 's').fromNow()
 
   setTimeout WMTU.streamInfoUpdateLoop, 5000
 
