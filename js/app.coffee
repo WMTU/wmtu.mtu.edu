@@ -16,30 +16,24 @@ WMTU.onStreamPaused = ->
 WMTU.handleDatePickerEvent = ->
   $('#playlist-date').blur()
   $("#playlist-table tbody").empty()
-  pickedValue = WMTU.datePicker.get 'select', 'yyyy mm dd'
+  pickedValue = WMTU.datePicker.get 'select', 'yyyy-mm-dd'
   if pickedValue != null & pickedValue != ""
     $("#playlist-table").show()
 
-    ymd = pickedValue.split(' ')
-
-    $.post '{{ "/php/playlist.php" | prepend: site.baseurl }}',
-      'year':ymd[0]
-      'month':ymd[1]
-      'day':ymd[2]
-      WMTU.renderPlaylist
+    $.get "http://10.0.1.10/log/api/v1.0/songs",
+      {date: pickedValue, desc: true},
+      WMTU.renderPlaylist, "json"
   else
     $("#playlist-table").hide()
 
 WMTU.renderPlaylist = (data)->
-  data = JSON.parse(data)
-  for item in data
+  for item in data["songs"]
     row = $("<tr />")
     $("#playlist-table tbody").append(row)
-    row.append($("<td>" + moment(item.ts, "YYYY-MM-DD HH:mm:ss").format("h:mm A") + "</td>"))
+    row.append($("<td>" + moment(item.timestamp, "YYYY-MM-DD[T]HH:mm:ss").format("h:mm A") + "</td>"))
     row.append($("<td>" + item.artist + "</td>"))
-    row.append($("<td>" + item.song_name + "</td>"))
+    row.append($("<td>" + item.title + "</td>"))
     row.append($("<td>" + item.album + "</td>"))
-    row.append($("<td>" + item.genre + "</td>"))
 
 
 WMTU.streamInfoUpdateLoop = ->
