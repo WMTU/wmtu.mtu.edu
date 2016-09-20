@@ -37,7 +37,7 @@ WMTU.renderPlaylist = (data)->
 
 WMTU.streamInfoUpdateLoop = ->
   $.getJSON "https://wmtu.mtu.edu/log/api/v1.0/songs",
-		{n: 1, desc: true, delay: true}, (data)->
+      {n: 1, desc: true, delay: true}, (data)->
     $('#current-track').html data["songs"][0].title + ' by ' + data["songs"][0].artist + ' |  ' + moment.tz(data["songs"][0].timestamp, "YYYY-MM-DD HH:mm:ss", "America/Detroit").add(30, 's').fromNow()
 
   setTimeout WMTU.streamInfoUpdateLoop, 5000
@@ -46,7 +46,7 @@ WMTU.initStream = ->
   WMTU.streamObject = soundManager.createSound
     id: 'WMTUStream',
     url: '{{ site.stream_url }}',
-    autoLoad: true,
+    autoLoad: false,
     autoPlay: false,
     volume: 80,
     onplay: WMTU.onStreamPlaying,
@@ -57,6 +57,15 @@ WMTU.initStream = ->
     WMTU.onStreamPlaying()
   else
     WMTU.onStreamPaused()
+
+WMTU.initCam = ->
+  jwplayer.key="QOM8nBM9YblVTd5FdhWTW9bYOmkMd0CmACOrA1+gZeE="
+  jwplayer("live-video").setup
+    file: "{{ site.cam_url }}",
+    height: 450,
+    width: 800,
+    autostart: false,
+    androidhls: true
 
 WMTU.bindThings = ->
   $('#play-button').click ->
@@ -86,7 +95,7 @@ WMTU.bindThings = ->
 
 WMTU.setup = ->
   colors = ["rgb(68, 171, 143)", "rgb(254, 196, 0)", "rgb(108, 201, 253)", "rgb(190, 48, 64)"]
-  colorsKey = Math.floor(Math.random() * 3)
+  colorsKey = Math.floor(Math.random() * 4)
   nthColor = colors[colorsKey]
   $(".fade-bg").css('background', nthColor)
 
@@ -94,6 +103,8 @@ WMTU.setup = ->
     url: 'bower_components/soundmanager/swf/',
     preferFlash: false,
     onready: WMTU.initStream
+
+  WMTU.initCam()
 
   WMTU.bindThings()
   WMTU.streamInfoUpdateLoop()
