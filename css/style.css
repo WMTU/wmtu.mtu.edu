@@ -134,12 +134,20 @@ span {
 }
 
 #player span {
-  display: inline-block;
+  display: none;
   margin: 0 auto;
 }
 
 #player span:hover {
   color: #333;
+}
+
+#player #play-button {
+  display: inline-block;
+}
+
+#player #loading-icon:hover {
+  color: inherit;
 }
 
 @media (max-width: 700px) {
