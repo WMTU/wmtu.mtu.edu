@@ -6,12 +6,21 @@
 WMTU = window.WMTU = {}
 WMTU.onStreamPlaying = ->
   $('#play-button').hide()
+  $('#loading-icon').hide()
   $('#pause-button').show()
 
-
 WMTU.onStreamPaused = ->
-  $('#play-button').show()
   $('#pause-button').hide()
+  $('#loading-icon').hide()
+  $('#play-button').show()
+
+WMTU.onStreamBufferChange = ->
+  if WMTU.streamObject.isBuffering
+    $('#pause-button').hide()
+    $('#play-button').hide()
+    $('#loading-icon').show()
+  else
+    WMTU.onStreamPlaying()
 
 WMTU.handleDatePickerEvent = ->
   $('#playlist-date').blur()
@@ -50,7 +59,8 @@ WMTU.initStream = ->
     volume: 80,
     onplay: WMTU.onStreamPlaying,
     onresume: WMTU.onStreamPlaying,
-    onpause: WMTU.onStreamPaused
+    onpause: WMTU.onStreamPaused,
+    onbufferchange: WMTU.onStreamBufferChange
 
   if WMTU.streamObject.playState
     WMTU.onStreamPlaying()
