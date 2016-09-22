@@ -4,28 +4,28 @@
 # Main Javascript file
 
 WMTU = window.WMTU = {}
-WMTU.onStreamPlaying = ->
-  $('#play-button').hide()
-  $('#loading-icon').hide()
-  $('#pause-button').show()
+WMTU.onStreamPlay = ->
+  $("#play-button").css "display", "none"
+  $("#loading-icon").css "display", "none"
+  $("#pause-button").css "display", "inline-block"
 
-WMTU.onStreamPaused = ->
-  $('#pause-button').hide()
-  $('#loading-icon').hide()
-  $('#play-button').show()
+WMTU.onStreamPause = ->
+  $("#pause-button").css "display", "none"
+  $("#loading-icon").css "display", "none"
+  $("#play-button").css "display", "inline-block"
 
 WMTU.onStreamBufferChange = ->
   if WMTU.streamObject.isBuffering
-    $('#pause-button').hide()
-    $('#play-button').hide()
-    $('#loading-icon').show()
+    $("#pause-button").css "display", "none"
+    $("#play-button").css "display", "none"
+    $("#loading-icon").css "display", "inline-block"
   else
-    WMTU.onStreamPlaying()
+    WMTU.onStreamPlay()
 
 WMTU.handleDatePickerEvent = ->
-  $('#playlist-date').blur()
+  $("#playlist-date").blur()
   $("#playlist-table tbody").empty()
-  pickedValue = WMTU.datePicker.get 'select', 'yyyy-mm-dd'
+  pickedValue = WMTU.datePicker.get "select", "yyyy-mm-dd"
   if pickedValue != null & pickedValue != ""
     $("#playlist-table").show()
 
@@ -46,26 +46,26 @@ WMTU.renderPlaylist = (data)->
 
 WMTU.streamInfoUpdateLoop = ->
   $.getJSON "https://wmtu.mtu.edu/log/api/v1.0/songs", {n: 1, desc: true, delay: true}, (data)->
-    $('#current-track').html data["songs"][0].title + ' by ' + data["songs"][0].artist + ' |  ' + moment.tz(data["songs"][0].timestamp, "YYYY-MM-DD HH:mm:ss", "America/Detroit").add(30, 's').fromNow()
+    $("#current-track").html data["songs"][0].title + " by " + data["songs"][0].artist + " |  " + moment.tz(data["songs"][0].timestamp, "YYYY-MM-DD HH:mm:ss", "America/Detroit").add(30, "s").fromNow()
 
   setTimeout WMTU.streamInfoUpdateLoop, 5000
 
 WMTU.initStream = ->
   WMTU.streamObject = soundManager.createSound
-    id: 'WMTUStream',
-    url: '{{ site.stream_url }}',
+    id: "WMTUStream",
+    url: "{{ site.stream_url }}",
     autoLoad: false,
     autoPlay: false,
     volume: 80,
-    onplay: WMTU.onStreamPlaying,
-    onresume: WMTU.onStreamPlaying,
-    onpause: WMTU.onStreamPaused,
+    onplay: WMTU.onStreamPlay,
+    onresume: WMTU.onStreamPlay,
+    onpause: WMTU.onStreamPause,
     onbufferchange: WMTU.onStreamBufferChange
 
   if WMTU.streamObject.playState
-    WMTU.onStreamPlaying()
+    WMTU.onStreamPlay()
   else
-    WMTU.onStreamPaused()
+    WMTU.onStreamPause()
 
 WMTU.initCam = ->
   jwplayer.key="QOM8nBM9YblVTd5FdhWTW9bYOmkMd0CmACOrA1+gZeE="
@@ -77,16 +77,16 @@ WMTU.initCam = ->
     androidhls: true
 
 WMTU.bindThings = ->
-  $('#play-button').click ->
+  $("#play-button").click ->
     if WMTU.streamObject.paused
       WMTU.streamObject.resume()
     else
       WMTU.streamObject.play()
 
-  $('#pause-button').click ->
+  $("#pause-button").click ->
     WMTU.streamObject.pause()
 
-  WMTU.datePicker = $('#playlist-date').pickadate().pickadate('picker')
+  WMTU.datePicker = $("#playlist-date").pickadate().pickadate("picker")
 
   if WMTU.datePicker
     WMTU.datePicker.on
@@ -96,20 +96,20 @@ WMTU.bindThings = ->
 
   $(window).scroll ->
     if $(this).scrollTop() > 150 && $(this).scrollTop() < 250
-      $("#scrolltotop").css('visibility', 'visible')
+      $("#scrolltotop").css("visibility", "visible")
     else if $(this).scrollTop() > 250
-      $("#scrolltotop").css('visibility', 'visible')
+      $("#scrolltotop").css("visibility", "visible")
     else
-      $("#scrolltotop").css('visibility', 'hidden')
+      $("#scrolltotop").css("visibility", "hidden")
 
 WMTU.setup = ->
   colors = ["rgb(68, 171, 143)", "rgb(254, 196, 0)", "rgb(108, 201, 253)", "rgb(190, 48, 64)"]
   colorsKey = Math.floor(Math.random() * 4)
   nthColor = colors[colorsKey]
-  $(".fade-bg").css('background', nthColor)
+  $(".fade-bg").css("background", nthColor)
 
   soundManager.setup
-    url: 'bower_components/soundmanager/swf/',
+    url: "bower_components/soundmanager/swf/",
     preferFlash: false,
     onready: WMTU.initStream
 
@@ -118,8 +118,8 @@ WMTU.setup = ->
   WMTU.bindThings()
   WMTU.streamInfoUpdateLoop()
 
-  $(document).pjax '[data-pjax] a, a[data-pjax]', '.page-content',
-    fragment: '.page-content'
+  $(document).pjax "[data-pjax] a, a[data-pjax]", ".page-content",
+    fragment: ".page-content"
 
   $(document).on "pjax:timeout", (event)->
     event.preventDefault()
