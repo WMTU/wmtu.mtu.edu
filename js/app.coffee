@@ -68,13 +68,14 @@ WMTU.initStream = ->
     WMTU.onStreamPause()
 
 WMTU.initCam = ->
-  jwplayer.key="QOM8nBM9YblVTd5FdhWTW9bYOmkMd0CmACOrA1+gZeE="
-  jwplayer("live-video").setup
-    file: "{{ site.cam_url }}",
-    height: 450,
-    width: 800,
-    autostart: false,
-    androidhls: true
+  if $("#live-video").length
+    jwplayer.key="QOM8nBM9YblVTd5FdhWTW9bYOmkMd0CmACOrA1+gZeE="
+    jwplayer("live-video").setup
+      file: "{{ site.cam_url }}",
+      height: 450,
+      width: 800,
+      autostart: false,
+      androidhls: true
 
 WMTU.bindThings = ->
   $("#play-button").click ->
@@ -130,3 +131,4 @@ $(document).ready ->
 $(document).on "pjax:success", (event)->
   $("body *").off();
   WMTU.bindThings()
+  WMTU.initCam()
