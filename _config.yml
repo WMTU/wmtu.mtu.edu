@@ -4,9 +4,9 @@ email: wmtu@mtu.edu
 description: | # this block (until 'baseurl') will have its newline characters preserved
   WMTU is funded by the Undergraduate Student Government of Michigan Technological University.
   WMTU's bandwidth provided by Resnet
-  © WMTU 91.9-FM Houghton | Michigan Technological University 2015
+  © WMTU 91.9-FM Houghton | Michigan Technological University <script type="text/javascript">document.write(new Date().getFullYear());</script>
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://wmtu.mtu.edu" # the base hostname & protocol for your site
+url: "https://wmtu.mtu.edu" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
