@@ -21,8 +21,8 @@ request_line: 906-487-1600
 twitter_username: WMTU
 facebook_username: 919wmtu
 github_username:  WMTU
-stream_url: https://stream.wmtu.mtu.edu:8000/wmtu-320
-stream_playlist: https://stream.wmtu.mtu.edu:8000/wmtu-320.m3u
+stream_url: http://stream.wmtu.fm:8000/wmtu-320
+stream_playlist: http://stream.wmtu.fm:8000/wmtu-320.m3u
 cam_url: http://streamingwebcams.mtu.edu:1935/rtplive/camera025.stream/playlist.m3u8
 
 exclude: [README.md, Gemfile, Gemfile.lock, scripts, bower_components/soundmanager/demo, bower_components/jquery/src, vendor]
