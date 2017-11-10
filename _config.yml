@@ -6,7 +6,7 @@ description: | # this block (until 'baseurl') will have its newline characters p
   WMTU's bandwidth provided by Resnet
   © WMTU 91.9-FM Houghton | Michigan Technological University 2017
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://wmtu.mtu.edu" # the base hostname & protocol for your site
+url: "https://wmtu.fm" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

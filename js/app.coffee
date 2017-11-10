@@ -29,7 +29,7 @@ WMTU.handleDatePickerEvent = ->
   if pickedValue != null & pickedValue != ""
     $("#playlist-table").show()
 
-    $.getJSON "https://wmtu.mtu.edu/log/api/v1.0/songs",
+    $.getJSON "https://wmtu.fm/log/api/v1.0/songs",
       {date: pickedValue, desc: true}, WMTU.renderPlaylist
   else
     $("#playlist-table").hide()
@@ -45,7 +45,7 @@ WMTU.renderPlaylist = (data)->
 
 
 WMTU.streamInfoUpdateLoop = ->
-  $.getJSON "https://wmtu.mtu.edu/log/api/v1.0/songs", {n: 1, desc: true, delay: true}, (data)->
+  $.getJSON "https://wmtu.fm/log/api/v1.0/songs", {n: 1, desc: true, delay: true}, (data)->
     $("#current-track").html data["songs"][0].title + " by " + data["songs"][0].artist + " |  " + moment.tz(data["songs"][0].timestamp, "YYYY-MM-DD HH:mm:ss", "America/Detroit").add(30, "s").fromNow()
 
   setTimeout WMTU.streamInfoUpdateLoop, 5000
