@@ -1,10 +1,10 @@
 # Site settings
-title: WMTU 91.9-FM Houghton
+title: WMTU 91.9 FM Houghton
 email: wmtu@mtu.edu
 description: | # this block (until 'baseurl') will have its newline characters preserved
   WMTU is funded by the Undergraduate Student Government of Michigan Technological University.
   WMTU's bandwidth provided by Resnet
-  © WMTU 91.9-FM Houghton | Michigan Technological University 2017
+  © WMTU 91.9 FM Houghton | Michigan Technological University 2017
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://wmtu.fm" # the base hostname & protocol for your site
 
@@ -19,10 +19,10 @@ address: |
 office_phone: 906-487-2333
 request_line: 906-487-1600
 twitter_username: WMTU
-facebook_username: 919wmtu
+facebook_username: wmtufm
 github_username:  WMTU
-stream_url: https://stream.wmtu.fm/wmtu-320
-stream_playlist: https://stream.wmtu.fm/wmtu-320.m3u
+stream_url: https://stream.wmtu.fm/wmtu-live
+stream_playlist: https://stream.wmtu.fm/wmtu-live.m3u
 cam_url: https://streamingwebcams.mtu.edu:1935/rtplive/camera025.stream/playlist.m3u8
 
 exclude: [README.md, Gemfile, Gemfile.lock, scripts, bower_components/soundmanager/demo, bower_components/jquery/src, vendor]
